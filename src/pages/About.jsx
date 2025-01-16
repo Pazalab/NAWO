@@ -1,7 +1,9 @@
 import AboutBody from "../components/about/AboutBody"
 import AboutHero from "../components/about/AboutHero"
 import AboutStory from "../components/about/AboutStory"
+import Footer from "../components/common/Footer"
 import Navbar from "../components/common/navigation/Navbar"
+import PartnersStrip from "../components/home/PartnersStrip"
 import "../styles/about.css"
 
 const About = () => {
@@ -13,6 +15,8 @@ const About = () => {
               </div>
               <AboutBody />
               <AboutStory />
+              <PartnersStrip />
+              <Footer />
     </>
   )
 }

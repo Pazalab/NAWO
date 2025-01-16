@@ -28,8 +28,8 @@ const Header = () => {
                                                       <li onMouseEnter={() => setStatus(true)} onMouseLeave={() => setStatus(false)}><NavLink to={"/who-we-are"}>Who We Are</NavLink>
                                                                 <Dropdown data={aboutData} status={status}  />
                                                       </li>
-                                                      <li><NavLink to={"/what-we-do"}>What We Do</NavLink></li>
-                                                      <li><NavLink to={"/events"}>Events</NavLink></li>
+                                                      <li><Link to={"#"}>What We Do</Link></li>
+                                                      <li><Link to={"#"}>Events</Link></li>
                                                       <li><NavLink to={"/contact-us"}>Contact Us</NavLink></li>
                                             </ul>
                                   </nav>
@@ -37,7 +37,7 @@ const Header = () => {
                                              {/* <div className="search-box">
                                                        <span><TfiSearch /></span>
                                              </div> */}
-                                             <Link to={"/donate"}><span><LiaDonateSolid /></span>Donate </Link>
+                                             <Link to={"/donate"}><span><LiaDonateSolid /></span>Donate Today</Link>
                                              <span className="menu-btn" onClick={() => setSidebarStatus(true)}><CgMenu /></span>
                                   </div>
                        </div>

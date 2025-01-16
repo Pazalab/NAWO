@@ -113,10 +113,30 @@
        padding: 100px 0;
        background: rgba(252, 250, 239, 0.707);
 }
+.about-story-content h3{
+     font-size: 25px;
+     margin-bottom: 10px;
+     font-weight: 500;
+}
 
-
-
-
+.about-story-texts{
+       display: grid;
+       gap: 20px;
+}
+.about-story-texts p{
+     font-size: 18px;
+     line-height: 1.75;
+    font-weight: 300;
+}
+.about-story-texts p span{
+      font-weight: 400;
+      font-size: 19px;
+}
+.about-texts-split{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+}
 
 
 
@@ -205,6 +225,10 @@
        }
        .about-dangling-texts a{
               width: 150px;
+       }
+       .about-texts-split{
+           grid-template-columns: 1fr;
+           gap: 20px;
        }
 }
 
