@@ -37,7 +37,7 @@ const HeroSection = () => {
                                   effect={'creative'}
                                   direction={'vertical'}
                                   allowTouchMove={false}
-                                  mousewheel={true}
+                                  onTouchMove={(e) => e.preventDefault() }
                                   autoplay={{
                                         delay: 8500,
                                         disableOnInteraction: false

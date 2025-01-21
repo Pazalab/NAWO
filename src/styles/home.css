@@ -13,6 +13,7 @@
 
 .mySwiper{
      height: 100%;
+     touch-action: pan-y;
 }
 
 .hero-slide-moja{
