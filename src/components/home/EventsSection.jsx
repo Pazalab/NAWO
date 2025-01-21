@@ -7,6 +7,7 @@ import event1 from "../../assets/hero2.jpg"
 import event2 from "../../assets/hero3.jpg"
 import event3 from "../../assets/donation1.jpg"
 import event4 from "../../assets/hero1.jpg"
+import event_upcoming from "../../assets/award.jpeg"
 const EventsSection = () => {
   return (
     <div className="events-section">
@@ -14,15 +15,17 @@ const EventsSection = () => {
                        <div className="events-section-content">
                                   <div className="events-section-intro">
                                           <h3>Upcoming Events</h3>
-                                          <div className="events-section-wrapper">
-                                                    <div className="events-section-column">
-                                                              <h2>Exciting Opportunities to Make a Difference</h2>
-                                                              <Link to={"/events"}>All Events <span><HiArrowLongRight /></span></Link>
-                                                    </div> 
+                                          <div className="events-section-column">
+                                                       <h2>Exciting Opportunities to Make a Difference</h2>
+                                                       <Link to={"/events"}>All Events <span><HiArrowLongRight /></span></Link>
+                                             </div> 
+                                  </div>
+                                  <div className="events-section-wrapper">
+                                                    
                                                     <div className="events-wrap">
                                                              <div className="single-event">
                                                                        <div className="single-event-image">
-                                                                                 <img src="" alt="" />
+                                                                                 <img src={event_upcoming} alt="" />
                                                                        </div>
                                                                        <div className="single-event-texts">
                                                                                  <div className="event-head">
@@ -36,11 +39,9 @@ const EventsSection = () => {
                                                              </div>
                                                     </div>
                                           </div>
-                                          <div className="events-section-column">
-                                                    <h2>Kindness makes a difference — explore our events and initiatives.</h2>
-                                                    
+                                          <div className="events-wrap-column">
+                                                    <h2>Kindness makes a difference — explore our past projects and initiatives.</h2>
                                           </div>
-                                  </div>
                                   <div className="events-section-row">
                                             <div className="event-moja">
                                                        <div className="event-image">
@@ -105,6 +106,10 @@ const EventsSection = () => {
                                                                 <p>July 10, 2025</p>
                                                        </div>
                                             </div>
+                                  </div>
+
+                                  <div className="more-btn">
+                                             <Link to={"/our-work"}>View All Projects <span><HiArrowLongRight /></span></Link>
                                   </div>
                        </div>
              </div>

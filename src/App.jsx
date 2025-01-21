@@ -7,6 +7,8 @@ import About from "./pages/About"
 import Programs from "./pages/Programs"
 import { useEffect } from "react"
 import SingleProgram from "./pages/SingleProgram"
+import Work from "./pages/Work"
+import SingleWorkPage from "./pages/SingleWorkPage"
 
 function App() {
   const location = useLocation();
@@ -22,6 +24,8 @@ function App() {
               <Route path="/what-we-do/:name" element={<SingleProgram />} />
               <Route path="/contact-us" element={<Contact />} />
               <Route path="/donate" element={<Donation />} />
+              <Route path="/our-work" element={<Work />} />
+              <Route path="/our-work/:name" element={<SingleWorkPage />} />
     </Routes>
   )
 }

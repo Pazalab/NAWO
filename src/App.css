@@ -551,6 +551,12 @@ footer{
        header{
              padding: 10px 20px 0px 20px;
        }
+       .scrolled-header{
+             padding: 0 10px;
+       }
+       .scrolled-header .header-content{
+              padding: 8px 20px;
+       }
        .header-content{
               padding: 10px 20px;
        }
