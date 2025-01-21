@@ -2,24 +2,35 @@ import { Link, NavLink } from "react-router-dom"
 import logo from "../../../assets/logo.png"
 //import { TfiSearch } from "react-icons/tfi";
 import { CgMenu } from "react-icons/cg";
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { sidebarContext } from "./navcontext";
 import Dropdown from "./Dropdown";
 import { PiHandHeartLight } from "react-icons/pi";
 
-const Header = () => {
-  // eslint-disable-next-line no-unused-vars
-  const [sidebarStatus, setSidebarStatus] = useContext(sidebarContext);
-  const aboutData = [
-      { title: "Story", link: "/about-us"},
-      { title: "Team", link: "/team"},
-      { title: "Awards", link: "#"},
-      { title: "Financials", link: '#'}
-  ]
-  const [status, setStatus] = useState(false)
+const ScrolledHeader = () => {
+      // eslint-disable-next-line no-unused-vars
+      const [sidebarStatus, setSidebarStatus] = useContext(sidebarContext);
+      const aboutData = [
+          { title: "Story", link: "/about-us"},
+          { title: "Team", link: "/team"},
+          { title: "Awards", link: "#"},
+          { title: "Financials", link: '#'}
+      ]
+      const [status, setStatus] = useState(false)
+      const [scrolled, setScrolled] = useState(false)
+
+      useEffect(() => {
+             window.addEventListener("scroll", ()=> {
+                    if(window.scrollY > 150){
+                          setScrolled(true)
+                    }else{
+                        setScrolled(false)
+                    }
+             })
+      }, [])
   return (
-    <header>
-                       <div className="header-content">
+       <div className={ scrolled ? "scrolled-header active" : "scrolled-header"}>
+                    <div className="header-content">
                                  <Link to={"/"} className="logo">
                                           <img src={logo} alt="Nawo Logo" />
                                  </Link>
@@ -42,8 +53,8 @@ const Header = () => {
                                              <span className="menu-btn" onClick={() => setSidebarStatus(true)}><CgMenu /></span>
                                   </div>
                        </div>
-    </header>
+    </div>
   )
 }
 
-export default Header
+export default ScrolledHeader

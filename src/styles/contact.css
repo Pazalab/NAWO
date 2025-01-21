@@ -1,6 +1,5 @@
 .contact-page-landing{
      height: 75vh;
-     border: 1px solid;
      position: relative;
      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../assets/contactBg.jpg") no-repeat;
      background-size: cover;

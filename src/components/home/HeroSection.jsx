@@ -36,6 +36,7 @@ const HeroSection = () => {
                                   speed={1000}
                                   effect={'creative'}
                                   direction={'vertical'}
+                                  allowTouchMove={false}
                                   autoplay={{
                                         delay: 8500,
                                         disableOnInteraction: false

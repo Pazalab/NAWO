@@ -59,6 +59,33 @@ header{
       z-index: 99;
       position: relative;
 }
+
+.scrolled-header{
+      position: fixed;
+      padding: 5px 50px;
+      background: white;
+      z-index: 99;
+      width: 100%;
+      top: 0;
+      transform: translateY(-105%);
+      -webkit-transform: translateY(-105%);
+      -moz-transform: translateY(-105%);
+      -ms-transform: translateY(-105%);
+      -o-transform: translateY(-105%);
+      transition: all 0.8s ease;
+      -webkit-transition: all 0.8s ease;
+      -moz-transition: all 0.8s ease;
+      -ms-transition: all 0.8s ease;
+      -o-transition: all 0.8s ease;
+      border-bottom: 1px solid rgba(222, 229, 234, 0.499);
+}
+.scrolled-header.active{
+       transform: translateY(0);
+       -webkit-transform: translateY(0);
+       -moz-transform: translateY(0);
+       -ms-transform: translateY(0);
+       -o-transform: translateY(0);
+}
 .header-content{
       background: white;
       display: flex;
@@ -99,6 +126,10 @@ header{
       -o-transition: all 0.75s ease;
       padding-bottom:4px;
       display: inline-flex;
+}
+
+.scrolled-header .header-content ul li a{
+       padding-bottom: 8px;
 }
 .header-content nav ul li a.active,
 .header-content nav ul li a:hover,
@@ -161,7 +192,7 @@ header{
 .menu-btn{
        display: flex;
        border: 2px solid black;
-       color: var(--main-color);
+       color: black;
        font-size: 20px;
        width: 45px;
        height: 45px;
@@ -214,6 +245,10 @@ header{
      -o-transition: all 0.75s ease;
      opacity: 0;
      pointer-events: none;
+     box-shadow: 0px 0px 4px -2px gainsboro;
+}
+.scrolled-header .header-content .dropdown{
+       top: 95px;
 }
 
 .header-content .dropdown.active{
@@ -264,7 +299,7 @@ header{
 }
 .sidebar-section.active{
       opacity: 1;
-      z-index: 99;;
+      z-index: 999;;
 }
 .sidebar-overlay{
      position: absolute;

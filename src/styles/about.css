@@ -1,6 +1,5 @@
 .about-page-landing{
     height: 90vh;
-    border: 1px solid;
     position: relative;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../assets/about.jpg") no-repeat;
     background-size: cover;
