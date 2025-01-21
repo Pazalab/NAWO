@@ -6,7 +6,7 @@ import 'swiper/css/effect-creative';
 import { EffectCreative, Autoplay } from 'swiper/modules';
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { LiaDonateSolid } from "react-icons/lia";
+import { PiHandHeartLight } from "react-icons/pi";
 import { HiArrowLongRight } from "react-icons/hi2";
 const hero_data = [
     {
@@ -65,7 +65,7 @@ const HeroSection = () => {
 
                                                                                                  <div className="hero-links">
                                                                                                           <Link to={"/who-we-are"}>Explore More <span><HiArrowLongRight /></span></Link>
-                                                                                                          <Link to={"/donate"}>Donate <span><LiaDonateSolid /></span></Link>
+                                                                                                          <Link to={"/donate"}>Donate <span><PiHandHeartLight /></span></Link>
                                                                                                  </div>
                                                                                       </div>
                                                                             </div>

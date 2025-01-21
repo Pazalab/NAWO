@@ -151,7 +151,8 @@ header{
       -moz-border-radius: 50px;
       -ms-border-radius: 50px;
       -o-border-radius: 50px;
-      gap: 5px
+      gap: 5px;
+      font-size: 15px;
 }
 .header-extra a span{
        display: flex;

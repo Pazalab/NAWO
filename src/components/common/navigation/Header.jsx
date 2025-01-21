@@ -5,7 +5,8 @@ import { CgMenu } from "react-icons/cg";
 import { useContext, useState } from "react";
 import { sidebarContext } from "./navcontext";
 import Dropdown from "./Dropdown";
-import { LiaDonateSolid } from "react-icons/lia";
+import { PiHandHeartLight } from "react-icons/pi";
+
 const Header = () => {
   // eslint-disable-next-line no-unused-vars
   const [sidebarStatus, setSidebarStatus] = useContext(sidebarContext);
@@ -37,7 +38,7 @@ const Header = () => {
                                              {/* <div className="search-box">
                                                        <span><TfiSearch /></span>
                                              </div> */}
-                                             <Link to={"/donate"}><span><LiaDonateSolid /></span>Donate Today</Link>
+                                             <Link to={"/donate"}>Donate Today <span><PiHandHeartLight /></span></Link>
                                              <span className="menu-btn" onClick={() => setSidebarStatus(true)}><CgMenu /></span>
                                   </div>
                        </div>

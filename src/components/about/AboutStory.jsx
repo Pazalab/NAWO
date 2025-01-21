@@ -1,3 +1,4 @@
+import ValuesSection from "./ValuesSection"
 
 const AboutStory = () => {
   return (
@@ -12,7 +13,20 @@ const AboutStory = () => {
                                                                  <p>As NAWO looks to the future, the organization is committed to expanding its reach and impact across Africa. Plans include the creation of resource centers in rural areas, capacity-building programs for women and youth, and the continued scaling of OSTV. With its unwavering dedication and growing network of supporters, NAWO is on a mission to transform African villages, empower communities, and build a brighter, more resilient future for all.</p>
                                                     </div>
                                          </div>
+
+                                         <div className="statements-row">
+                                                   <div className="statement-moja">
+                                                           <h3>Our Mission</h3>
+                                                           <p>To uplift disenfranchised African villagers by advancing their social, cultural, economic, and civic well-being, fostering resilience, dignity, and sustainable growth.</p>
+                                                   </div>
+                                                   <div className="statement-moja">
+                                                             <h3>Our Vision</h3>
+                                                             <p>To create a future where every African village thrives with access to opportunities, dignity, and sustainable development, empowering communities to reach their full potential.</p>
+                                                   </div>
+                                         </div>
                              </div>
+
+                             <ValuesSection />
                </div>
     </div>
   )

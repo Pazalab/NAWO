@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import african1 from "../../assets/african1.jpg"
 import african2 from "../../assets/african2.jpg"
-import { LiaDonateSolid } from "react-icons/lia";
+import { PiHandHeartLight } from "react-icons/pi";
 
 const DonationSection = () => {
   return (
@@ -18,7 +18,7 @@ const DonationSection = () => {
 
                            <p>We deeply value any contribution you can make, as it plays a vital role in driving the success of our causes and creating meaningful impact.</p>
 
-                           <Link to={"/donate"}>Donate <span><LiaDonateSolid /></span></Link>
+                           <Link to={"/donate"}>Donate <span><PiHandHeartLight /></span></Link>
                </div>
     </div>
   )

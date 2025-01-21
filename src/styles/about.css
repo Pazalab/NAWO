@@ -138,27 +138,216 @@
       gap: 40px;
 }
 
+.statements-row{
+       margin: 40px auto;
+       width: 1000px;
+
+}
+
+.statement-moja{
+       background: white;
+       border-radius: 16px;
+       -webkit-border-radius: 16px;
+       -moz-border-radius: 16px;
+       -ms-border-radius: 16px;
+       -o-border-radius: 16px;;
+       margin-bottom: 20px;
+       padding: 30px;
+}
+
+.statement-moja h3{
+       text-transform: uppercase;
+       font-size: 20px;
+       font-weight: 500;
+}
+
+.statement-moja p{
+        font-size: 20px;
+        line-height: 1.75;
+        font-weight: 300;
+        color: rgb(52, 52, 52);
+}
 
 
+.values-section{
+       display: grid;
+       grid-template-columns: 1.25fr 1.25fr 1.5fr;
+       gap: 50px;
+       margin-top: 100px;
+       align-items: center;
+}
 
+.values-intro h2{
+        font-size: 60px;
+        margin-bottom: 10px;
+}
 
+.values-intro p{
+       font-size: 20px;
+       line-height: 1.75;
+       color: rgb(68, 68, 68);
+}
 
+.value-moja{
+       background: white;
+       padding: 30px;
+       margin-bottom: 20px;
+       border-radius: 16px;
+       -webkit-border-radius: 16px;
+       -moz-border-radius: 16px;
+       -ms-border-radius: 16px;
+       -o-border-radius: 16px;
+}
 
+.value-moja h3{
+       font-size: 19px;
+       margin-bottom: 5px;
+}
 
+.value-moja p{
+        line-height: 1.5;
+        font-weight: 300;
+}
 
+.values-image{
+        height: max-content;
+}
 
+.team-section{
+       padding: 110px 0;
+}
 
+.team-intro{
+       display: grid;
+       grid-template-columns: 1fr 1.5fr;
+       gap: 50px;
+       align-items: end;
+}
+.team-intro h2{
+       font-size: 56px;
+       line-height: 1.4;
+}
 
+.team-intro p{
+       font-size: 18px;
+       font-weight: 300;
+       color: rgb(49, 49, 49);
+       line-height: 1.75;
+}
 
+.team-row{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+       gap: 30px;
+       row-gap: 50px;
+       margin-top: 60px;
+}
 
+.team-image{
+        height: 420px;
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
+        overflow: hidden;
+        position: relative;;
+}
+.team-image .overflow{
+       background: linear-gradient(transparent, rgba(224, 146, 0, 0.247), rgb(224, 146, 0));
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       z-index: 5;
+       top: 0;
+       transform: translateY(100%);
+       -webkit-transform: translateY(100%);
+       -moz-transform: translateY(100%);
+       -ms-transform: translateY(100%);
+       -o-transform: translateY(100%);
+       transition: all 0.8s ease;
+       -webkit-transition: all 0.8s ease;
+       -moz-transition: all 0.8s ease;
+       -ms-transition: all 0.8s ease;
+       -o-transition: all 0.8s ease;
+}
+.team-moja:hover .team-image .overflow{
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+}
+.team-image span{
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        z-index: 10;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        color: var(--secondary-color);
+        transition: all 0.8s ease;
+        -webkit-transition: all 0.8s ease;
+        -moz-transition: all 0.8s ease;
+        -ms-transition: all 0.8s ease;
+        -o-transition: all 0.8s ease;
+}
+.team-moja:hover .team-image span{
+       opacity: 1;
+}
+.team-moja:hover img{
+        transform: scale(1.08);
+        -webkit-transform: scale(1.08);
+        -moz-transform: scale(1.08);
+        -ms-transform: scale(1.08);
+        -o-transform: scale(1.08);
+}
+.team-moja img{
+        height: 420px;
+        position: relative;
+        z-index: 2;
+        transition: all 0.8s ease;
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
+        -webkit-transition: all 0.8s ease;
+        -moz-transition: all 0.8s ease;
+        -ms-transition: all 0.8s ease;
+        -o-transition: all 0.8s ease;
+}
 
+.team-moja h3{
+       margin: 10px 10px 5px 10px;
+       font-weight: 500;
+       font-size: 18px;
+}
+.team-moja p{
+       color: rgb(68, 68, 68);
+       font-weight: 300;
+       margin: 0 10px;
+       font-size: 15px;
+}
 
-
-
-
-
-
-
+.team-moja:hover{
+       cursor: pointer;
+}
 
 
 
@@ -198,13 +387,31 @@
             grid-template-columns: 1fr;
             gap: 40px
       }
+
+      .statements-row{
+            width: 100%;
+      }
+
+      .values-intro h2,
+      .team-intro h2{
+            font-size: 50px;
+      }
+      .values-section{
+           grid-template-columns: 1fr 
+      }
+      .team-row{
+           grid-template-columns: 1fr 1fr 1fr;
+      }
 }
 
 @media(max-width: 768px){
-       .about-hero-content h1{
+       .about-hero-content h1,
+       .values-intro h2,
+       .team-intro h2{
               font-size: 40px;
        }
-       .about-hero-content p{
+       .about-hero-content p,
+       .values-intro p{
               font-size: 18px;
        }
        .about-body-image img{
@@ -230,11 +437,21 @@
            grid-template-columns: 1fr;
            gap: 20px;
        }
+       .team-row{
+                grid-template-columns: 1fr 1fr;
+       }
+       .team-intro{
+                grid-template-columns: 1fr;
+                gap: 20px;
+       }
 }
 
 @media(max-width: 530px){
        .about-hero-content h1,
        .about-body-message h2{
              font-size: 32px;
+       }
+       .team-row{
+               grid-template-columns: 1fr;
        }
 }
