@@ -1,3 +1,4 @@
+import Footer from "../components/common/Footer"
 import Navbar from "../components/common/navigation/Navbar"
 import WorkBody from "../components/work/WorkBody"
 import WorkHero from "../components/work/WorkHero"
@@ -10,6 +11,7 @@ const Work = () => {
                          <WorkHero />
              </div>
              <WorkBody />
+             <Footer />
     </>
   )
 }

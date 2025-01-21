@@ -26,6 +26,7 @@
 .work-body-content{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
 }
 
 .single-project-moja{
@@ -128,4 +129,25 @@
 }
 .project-texts  h4 span{
     font-weight: 300;
+}
+
+@media(max-width: 1090px){
+     .work-body-content{
+          grid-template-columns: 1fr 1fr;
+     }
+}
+
+@media(max-width: 768px){
+     .work-body-content{
+            grid-template-columns: 1fr;
+     }
+     .work-hero-content h1{
+            font-size: 50px;
+     }
+}
+
+@media(max-width: 530px){
+    .work-hero-content h1{
+          font-size: 40px;
+    }
 }

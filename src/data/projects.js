@@ -2,8 +2,8 @@ export const projects = [
     {
         id: 0,
         coverphoto: "/projects/winnie/winnie9.jpg",
-        title: "Benefitting Village - Okpoga Community",
-        location: "Okpokwulga of Benue State",
+        title: "Benefitting Village - Okpoga Community (OSTV)",
+        location: "Okpokwulga of Benue State, Nigeria",
         date: "21st December, 2023",
         owner: "Winnifred Onyema Obeya - Ekoja",
         link: "/our-work/benefitting-village-okpoga-community",
@@ -22,5 +22,49 @@ export const projects = [
         ],
         videos: ["/projects/winnie/winnie-vid1.mp4",]
     },
+   {
+      id: 1, 
+      title: "NAWO Food Bank (OSTV)",
+      link: "/our-work/nawo-food-bank",
+      url_param: "nawo-food-bank",
+      owner: "Vero Umi Mgbodille",
+      coverphoto: "/projects/vero/vero14.jpg",
+      date: "11th November, 2023",
+      location: "Egede in Enugu State, Nigeria",
+      photos: [
+            "/projects/vero/vero14.jpg",
+            "/projects/vero/vero1.jpg",
+            "/projects/vero/vero2.jpg",
+            "/projects/vero/vero3.jpg",
+            "/projects/vero/vero6.jpg",
+            "/projects/vero/vero7.jpg",
+            "/projects/vero/vero8.jpg",
+            "/projects/vero/vero9.jpg",
+            "/projects/vero/vero10.jpg",
+            "/projects/vero/vero11.jpg",
+            "/projects/vero/vero12.jpg",
+            "/projects/vero/vero13.jpg",
+      ],
+      videos: []
+   },
 
+   {
+    id: 1, 
+    title: "Support for a brighter future for Cameroon villages(OSTV)",
+    link: "/our-work/support-for-a-brighter-future-for-cameroon-villages",
+    url_param: "support-for-a-brighter-future-for-cameroon-villages",
+    owner: "Alice Moundemis",
+    coverphoto: "/projects/alice/alice1.jpg",
+    date: "25th November, 2023",
+    location: "Younde, Cameroon",
+    photos: [
+         "/projects/alice/alice1.jpg",
+         "/projects/alice/alice2.jpg",
+         "/projects/alice/alice3.jpg",
+         "/projects/alice/alice4.jpg",
+         "/projects/alice/alice5.jpg",
+         "/projects/alice/alice6.jpg",
+    ],
+    videos: []
+ }
 ]
