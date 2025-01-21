@@ -14,9 +14,31 @@ const EventsSection = () => {
                        <div className="events-section-content">
                                   <div className="events-section-intro">
                                           <h3>Upcoming Events</h3>
+                                          <div className="events-section-wrapper">
+                                                    <div className="events-section-column">
+                                                              <h2>Exciting Opportunities to Make a Difference</h2>
+                                                              <Link to={"/events"}>All Events <span><HiArrowLongRight /></span></Link>
+                                                    </div> 
+                                                    <div className="events-wrap">
+                                                             <div className="single-event">
+                                                                       <div className="single-event-image">
+                                                                                 <img src="" alt="" />
+                                                                       </div>
+                                                                       <div className="single-event-texts">
+                                                                                 <div className="event-head">
+                                                                                           <p><span><PiMapPinLineLight /></span> Drewsbury Hall, Kentucky</p>
+                                                                                            <span className="dot"><GoDot /></span>
+                                                                                          <p><span><RiTimerLine /></span> Starts 8.00 am</p>
+                                                                                 </div>
+                                                                                 <h3>NAWO Giving for Change Gala</h3>
+                                                                                 <p>Its more than just a fundraising event—it’s a celebration of generosity, unity, and the power of community. Join us for an inspiring evening where every contribution fuels life-changing initiatives across African villages. Together, we’ll share stories of impact, connect with like-minded individuals, and raise crucial funds to support education, healthcare, women’s empowerment, and economic development. It’s your chance to be part of something bigger, creating hope and brighter futures—one village at a time!</p>
+                                                                       </div>
+                                                             </div>
+                                                    </div>
+                                          </div>
                                           <div className="events-section-column">
                                                     <h2>Kindness makes a difference — explore our events and initiatives.</h2>
-                                                    <Link to={"/events"}>All Events <span><HiArrowLongRight /></span></Link>
+                                                    
                                           </div>
                                   </div>
                                   <div className="events-section-row">
@@ -28,8 +50,8 @@ const EventsSection = () => {
                                                        <div className="event-texts">
                                                                 <div className="event-head">
                                                                             <p><span><PiMapPinLineLight /></span> Accra, Ghana</p>
-                                                                            <span className="dot"><GoDot /></span>
-                                                                            <p><span><RiTimerLine /></span> Starts 8.00 am</p>
+                                                                            {/* <span className="dot"><GoDot /></span>
+                                                                            <p><span><RiTimerLine /></span> Starts 8.00 am</p> */}
                                                                 </div>
                                                                 <h3>Improve lives and Strengthen the hope</h3>
                                                                 <p>May 24, 2025</p>
@@ -44,8 +66,8 @@ const EventsSection = () => {
                                                        <div className="event-texts">
                                                                 <div className="event-head">
                                                                             <p><span><PiMapPinLineLight /></span> Anambra State, Nigeria</p>
-                                                                            <span className="dot"><GoDot /></span>
-                                                                            <p><span><RiTimerLine /></span> Starts 9.00 am</p>
+                                                                            {/* <span className="dot"><GoDot /></span>
+                                                                            <p><span><RiTimerLine /></span> Starts 9.00 am</p> */}
                                                                 </div>
                                                                 <h3>Make a Positive impact every day</h3>
                                                                 <p>July 10, 2025</p>
@@ -60,8 +82,8 @@ const EventsSection = () => {
                                                        <div className="event-texts">
                                                                 <div className="event-head">
                                                                             <p><span><PiMapPinLineLight /></span> Oloitoktok, Kenya</p>
-                                                                            <span className="dot"><GoDot /></span>
-                                                                            <p><span><RiTimerLine /></span> Starts 10.00 am</p>
+                                                                            {/* <span className="dot"><GoDot /></span>
+                                                                            <p><span><RiTimerLine /></span> Starts 10.00 am</p> */}
                                                                 </div>
                                                                 <h3>Join us in making a brighter future</h3>
                                                                 <p>September 10, 2025</p>
@@ -76,8 +98,8 @@ const EventsSection = () => {
                                                        <div className="event-texts">
                                                                 <div className="event-head">
                                                                             <p><span><PiMapPinLineLight /></span> Djimouno, Cameroon</p>
-                                                                            <span className="dot"><GoDot /></span>
-                                                                            <p><span><RiTimerLine /></span> Starts 9.00 am</p>
+                                                                            {/* <span className="dot"><GoDot /></span>
+                                                                            <p><span><RiTimerLine /></span> Starts 9.00 am</p> */}
                                                                 </div>
                                                                 <h3>Make a Positive impact every day</h3>
                                                                 <p>July 10, 2025</p>
