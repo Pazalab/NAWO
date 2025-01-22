@@ -11,16 +11,16 @@ const Header = () => {
   // eslint-disable-next-line no-unused-vars
   const [sidebarStatus, setSidebarStatus] = useContext(sidebarContext);
   const aboutData = [
-      { title: "Story", link: "/about-us"},
-      { title: "Team", link: "/team"},
+      { title: "Story", link: "/who-we-are"},
+      { title: "Team", link: "/who-we-are/our-team"},
       { title: "Awards", link: "#"},
-      { title: "Financials", link: '#'}
   ]
   const [status, setStatus] = useState(false)
   const { pathname }  = useLocation();
   const url = pathname.slice(1, 10)
+  const url2 = pathname.slice(11, 20);
   return (
-    <header className={url === "our-work/" ? "remove" : ""}>
+         <header className={url === "our-work/" || url2 === "/our-team" ? "remove" : ""}>
                        <div className="header-content">
                                  <Link to={"/"} className="logo">
                                           <img src={logo} alt="Nawo Logo" />

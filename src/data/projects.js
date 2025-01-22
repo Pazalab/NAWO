@@ -7,7 +7,7 @@ export const projects = [
         date: "21st December, 2023",
         project_year: "2023",
         owner: "Winnifred Onyema Obeya - Ekoja",
-        name: "Winnifred Onyema",
+        name: "Winnifred Obeya - Ekoja",
         country: "Nigeria",
         link: "/our-work/benefitting-village-okpoga-community",
         url_param: "benefitting-village-okpoga-community",

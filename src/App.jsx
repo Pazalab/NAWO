@@ -9,6 +9,8 @@ import { useEffect } from "react"
 import SingleProgram from "./pages/SingleProgram"
 import Work from "./pages/Work"
 import SingleWorkPage from "./pages/SingleWorkPage"
+import Team from "./pages/Team"
+import SingleTeamPage from "./pages/SingleTeamPage"
 
 function App() {
   const location = useLocation();
@@ -26,6 +28,8 @@ function App() {
               <Route path="/donate" element={<Donation />} />
               <Route path="/our-work" element={<Work />} />
               <Route path="/our-work/:name" element={<SingleWorkPage />} />
+              <Route path="/who-we-are/our-team" element={<Team />} />
+              <Route path="/who-we-are/our-team/:name" element={<SingleTeamPage />} />
     </Routes>
   )
 }

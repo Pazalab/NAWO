@@ -349,20 +349,93 @@
 }
 
 
+/* TEAM */
+.team-page-body{
+       padding-top: 50px;
+}
+
+.single-team-body{
+        padding: 180px 0 100px 0;
+}
+
+.member-description{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        width: 1000px;
+        margin: auto;
+        align-items: center;
+}
+
+.member-description img{
+         max-width: 90%;
+         max-height: 500px;
+         margin: auto
+}
+
+.member-texts h3{
+       font-size: 40px;
+       font-weight: 500;
+       margin-bottom: 10px;
+       font-family: var(--font-regular);
+}
+
+.member-texts span{
+       font-size: 20px;
+       color: rgb(101, 101, 101);
+       margin-bottom: 10px;
+       font-weight: 300;
+       font-style: italic;
+       padding-bottom: 10px;
+       display: flex;
+       border-bottom: 1px solid gainsboro;
+}
+
+.member-texts p{
+        font-size: 16px;
+        font-weight: 300;
+        margin-bottom: 10px;
+        line-height: 1.6;
+}
+
+.member-projects{
+        margin-top: 60px;
+        padding-top: 30px;
+        border-top: 1px solid rgba(222, 221, 214, 0.581);
+}
+
+.member-projects h2{
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-weight: 600;
+}
+
+.member-projects-row{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       gap: 30px;
+}
 
 
+@media(max-width: 1090px){
+       .member-projects-row{
+             grid-template-columns: 1fr 1fr;
+       }
+       .member-description{
+                width: 90%;
+       }
+}
 
+@media(max-width: 768px){
+       .member-projects-row,
+       .member-description{
+               grid-template-columns: 1fr;
+       }
 
-
-
-
-
-
-
-
-
-
-
+       .member-texts h3{
+              font-size: 30px;
+       }
+}
 
 
 

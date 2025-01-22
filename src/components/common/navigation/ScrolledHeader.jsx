@@ -11,31 +11,31 @@ const ScrolledHeader = () => {
       // eslint-disable-next-line no-unused-vars
       const [sidebarStatus, setSidebarStatus] = useContext(sidebarContext);
       const aboutData = [
-          { title: "Story", link: "/about-us"},
-          { title: "Team", link: "/team"},
+          { title: "Story", link: "/who-we-are"},
+          { title: "Team", link: "/who-we-are/our-team"},
           { title: "Awards", link: "#"},
-          { title: "Financials", link: '#'}
       ]
       const [status, setStatus] = useState(false)
       const [scrolled, setScrolled] = useState(false)
       const { pathname } = useLocation();
 
       const url = pathname.slice(1, 10);
+      const url2 = pathname.slice(11, 20);
       useEffect(() => {
              window.addEventListener("scroll", ()=> {
                     if(window.scrollY > 150){
                           setScrolled(true)
                     }else{
                         setScrolled(false) 
-                        if(url === "our-work/"){
+                        if(url === "our-work/" || url2 == "/our-team"){
                             setScrolled(true)
                        }
                     }
              })
-             if(url === "our-work/"){
+             if(url === "our-work/" || url2 === "/our-team"){
                   setScrolled(true)
              }
-      }, [url])
+      }, [url, url2])
   return (
        <div className={ scrolled ? "scrolled-header active" : "scrolled-header"}>
                     <div className="header-content">
