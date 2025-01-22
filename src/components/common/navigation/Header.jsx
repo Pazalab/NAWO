@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom"
+import { Link, NavLink, useLocation } from "react-router-dom"
 import logo from "../../../assets/logo.png"
 //import { TfiSearch } from "react-icons/tfi";
 import { CgMenu } from "react-icons/cg";
@@ -17,8 +17,10 @@ const Header = () => {
       { title: "Financials", link: '#'}
   ]
   const [status, setStatus] = useState(false)
+  const { pathname }  = useLocation();
+  const url = pathname.slice(1, 10)
   return (
-    <header>
+    <header className={url === "our-work/" ? "remove" : ""}>
                        <div className="header-content">
                                  <Link to={"/"} className="logo">
                                           <img src={logo} alt="Nawo Logo" />

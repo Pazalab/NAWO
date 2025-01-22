@@ -59,7 +59,9 @@ header{
       z-index: 99;
       position: relative;
 }
-
+header.remove{
+       display: none;
+}
 .scrolled-header{
       position: fixed;
       padding: 5px 50px;

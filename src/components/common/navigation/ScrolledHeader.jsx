@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom"
+import { Link, NavLink, useLocation } from "react-router-dom"
 import logo from "../../../assets/logo.png"
 //import { TfiSearch } from "react-icons/tfi";
 import { CgMenu } from "react-icons/cg";
@@ -18,16 +18,24 @@ const ScrolledHeader = () => {
       ]
       const [status, setStatus] = useState(false)
       const [scrolled, setScrolled] = useState(false)
+      const { pathname } = useLocation();
 
+      const url = pathname.slice(1, 10);
       useEffect(() => {
              window.addEventListener("scroll", ()=> {
                     if(window.scrollY > 150){
                           setScrolled(true)
                     }else{
-                        setScrolled(false)
+                        setScrolled(false) 
+                        if(url === "our-work/"){
+                            setScrolled(true)
+                       }
                     }
              })
-      }, [])
+             if(url === "our-work/"){
+                  setScrolled(true)
+             }
+      }, [url])
   return (
        <div className={ scrolled ? "scrolled-header active" : "scrolled-header"}>
                     <div className="header-content">
