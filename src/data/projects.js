@@ -66,7 +66,7 @@ export const projects = [
     url_param: "support-for-a-brighter-future-for-cameroon-villages",
     owner: "Alice Moundemis",
     name: "Alice Moundemis",
-    coverphoto: "/projects/alice/alice1.jpg",
+    coverphoto: "/projects/alice/coverphoto.jpg",
     date: "25th November, 2023",
     project_year: "2023",
     location: "Younde, Cameroon",

@@ -154,7 +154,7 @@ const WorkBody = () => {
                                                     <div className="single-project-moja" key={item.id} onClick={() => navigate(item.link)}>
                                                           <div className="single-project-image">
                                                                      <img src={item.coverphoto} alt="" />
-                                                                     <p>{item.date}</p>
+                                                                     <p>{item.project_year}</p>
                                                                      <span><HiArrowLongRight /></span>
                                                           </div>
                                                           <div className="project-texts">

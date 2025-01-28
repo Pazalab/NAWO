@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom"
 import { HiArrowLongRight } from "react-icons/hi2";
 import { PiMapPinLineLight } from "react-icons/pi";
-import { RiTimerLine } from "react-icons/ri";
+import { IoCalendarOutline } from "react-icons/io5";
 import { GoArrowRight, GoDot } from "react-icons/go";
 import event1 from "../../assets/hero2.jpg"
 import event2 from "../../assets/hero3.jpg"
 import event3 from "../../assets/donation1.jpg"
 import event4 from "../../assets/hero1.jpg"
-import event_upcoming from "../../assets/award.jpeg"
+import event_upcoming from "../../assets/event1.jpg"
+
 const EventsSection = () => {
   return (
     <div className="events-section">
@@ -29,11 +30,11 @@ const EventsSection = () => {
                                                                        </div>
                                                                        <div className="single-event-texts">
                                                                                  <div className="event-head">
-                                                                                           <p><span><PiMapPinLineLight /></span> Drewsbury Hall, Kentucky</p>
+                                                                                           <p><span><PiMapPinLineLight /></span> Ekkon Conference Center</p>
                                                                                             <span className="dot"><GoDot /></span>
-                                                                                          <p><span><RiTimerLine /></span> Starts 8.00 am</p>
+                                                                                          <p><span><IoCalendarOutline /></span> Sat, October 18, 2025</p>
                                                                                  </div>
-                                                                                 <h3>NAWO Giving for Change Gala</h3>
+                                                                                 <h3>NAWO 3rd Anniversary Fundraising Gala</h3>
                                                                                  <p>Its more than just a fundraising event—it’s a celebration of generosity, unity, and the power of community. Join us for an inspiring evening where every contribution fuels life-changing initiatives across African villages. Together, we’ll share stories of impact, connect with like-minded individuals, and raise crucial funds to support education, healthcare, women’s empowerment, and economic development. It’s your chance to be part of something bigger, creating hope and brighter futures—one village at a time!</p>
                                                                        </div>
                                                              </div>

@@ -10,7 +10,7 @@ const SingleWorkBody = ({ data }) => {
                                     <div className="single-work-body-intro">
                                                <h3><span>Project Name: </span>{data.title}</h3>
                                                <h4><span>Project Coordinator: </span>{data.owner}</h4>
-                                               <h4><span>Project Date: </span>{data.date}</h4>
+                                               <h4><span>Project Date: </span>{data.project_year}</h4>
                                                <h4><span>Location: </span>{data.location}</h4>
                                     </div>
 

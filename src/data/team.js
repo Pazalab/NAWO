@@ -1,11 +1,19 @@
 export const team = [
     {
-        id: 0,
-        name: "Winnifred Obeya - Ekoja",
+        id: 5,
+        name: "Amaka Nnamchi Ezekwueche",
         position: "President & Director of Nawo",
-        image: "/winnifred.jpg",
-        link: "/who-we-are/our-team/winnifred-obeya-ekoja",
-        url_param: "winnifred-obeya-ekoja"
+        image: "/amaka.jpg",
+        link: "/who-we-are/our-team/amaka-nnamchi-ezekwueche",
+        url_param: "amaka-nnamchi-ezekwueche"
+    },
+    {
+        id: 3,
+        name: "Glory Anyaegbu",
+        position: "Vice President & Treasurer",
+        image: "glory.jpg",
+        link: "/who-we-are/our-team/glory-anyaegbu",
+        url_param: "glory-anyaegbu",
     },
     {
         id: 1,
@@ -24,14 +32,6 @@ export const team = [
         url_param: "martha-ochu"
     },
     {
-        id: 3,
-        name: "Glory Anyaegbu",
-        position: "Team Leader",
-        image: "glory.jpg",
-        link: "/who-we-are/our-team/glory-anyaegbu",
-        url_param: "glory-anyaegbu",
-    },
-    {
         id: 4,
         name: "Bridget Chijioke",
         position: "Project Manager & Coordinator",
@@ -40,12 +40,12 @@ export const team = [
         url_param: "bridget-chijioke"
     },
     {
-        id: 5,
-        name: "Amaka Nnamchi Ezekwueche",
+        id: 0,
+        name: "Winnifred Obeya - Ekoja",
         position: "Project Supervisor",
-        image: "/amaka.jpg",
-        link: "/who-we-are/our-team/amaka-nnamchi-ezekwueche",
-        url_param: "amaka-nnamchi-ezekwueche"
+        image: "/winnifred2.jpg",
+        link: "/who-we-are/our-team/winnifred-obeya-ekoja",
+        url_param: "winnifred-obeya-ekoja"
     },
     {
         id: 6, 
