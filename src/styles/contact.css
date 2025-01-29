@@ -26,10 +26,13 @@
 
 .contact-body-content{
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
       gap: 60px;
 }
-
+.contact-body-column{
+       width: 900px;
+       margin: auto;
+}
 .contact-body-column h2{
      font-size: 60px;
      margin-bottom: 20px;
@@ -177,6 +180,10 @@ textarea::placeholder{
       .contact-body-content{
             grid-template-columns: 1fr;
             gap: 40px;
+      }
+
+      .contact-body-column{
+             width: 100%;
       }
 }
 @media(max-width: 768px){

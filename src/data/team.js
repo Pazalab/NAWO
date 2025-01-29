@@ -16,9 +16,25 @@ export const team = [
         url_param: "glory-anyaegbu",
     },
     {
+        id: 7,
+        name: "Susan Wachira",
+        position: "CTO & Assistant Treasurer",
+        image: "/susan.jpg",
+        link: "/who-we-are/our-team/susan-wachira",
+        url_param: "susan-wachira"
+    },
+    {
+        id: 1,
+        name: "Dr. Ayoola Ogbe-Oyenuga",
+        position: 'Honourable Member of Nawo',
+        image: "/ayola.jpg",
+        link:"/who-we-are/our-team/ayoola-oyenuga",
+        url_param: "ayoola-oyenuga"
+    },
+    {
         id: 1,
         name: "Vero Mgbodille",
-        position: 'Vice President of Nawo',
+        position: 'Honourable Member of Nawo',
         image: "/vero.jpg",
         link:"/who-we-are/our-team/vero-mgbodille",
         url_param: "vero-mgbodille"
@@ -26,7 +42,7 @@ export const team = [
     {
         id: 2, 
         name: "Martha Ochu",
-        position: "Team Leader",
+        position: 'Honourable Member of Nawo',
         image: "/martha.jpg",
         link: "/who-we-are/our-team/martha-ochu",
         url_param: "martha-ochu"
@@ -34,7 +50,7 @@ export const team = [
     {
         id: 4,
         name: "Bridget Chijioke",
-        position: "Project Manager & Coordinator",
+        position:'Honourable Member of Nawo',
         image: "/bridget.jpg",
         link: "/who-we-are/our-team/bridget-chijioke",
         url_param: "bridget-chijioke"
@@ -42,7 +58,7 @@ export const team = [
     {
         id: 0,
         name: "Winnifred Obeya - Ekoja",
-        position: "Project Supervisor",
+        position: 'Honourable Member of Nawo',
         image: "/winnifred2.jpg",
         link: "/who-we-are/our-team/winnifred-obeya-ekoja",
         url_param: "winnifred-obeya-ekoja"
@@ -50,17 +66,10 @@ export const team = [
     {
         id: 6, 
         name: "Alice Moundemis",
-        position: "Finance Manager",
-        image: "/alice.jpg",
+        position: 'Honourable Member of Nawo',
+        image: "/alice-photo.jpg",
         link: "/who-we-are/our-team/alice-moundemis",
         url_param: "alice-moundemis"
     },
-    {
-        id: 7,
-        name: "Susan Wachira",
-        position: "Technical Manager",
-        image: "/susan.jpg",
-        link: "/who-we-are/our-team/susan-wachira",
-        url_param: "susan-wachira"
-    }
+
 ]
