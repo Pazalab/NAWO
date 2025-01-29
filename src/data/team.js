@@ -3,7 +3,7 @@ export const team = [
         id: 5,
         name: "Amaka Nnamchi Ezekwueche",
         position: "President & Director of Nawo",
-        image: "/amaka.jpg",
+        image: "/amaka-photo.jpg",
         link: "/who-we-are/our-team/amaka-nnamchi-ezekwueche",
         url_param: "amaka-nnamchi-ezekwueche"
     },
@@ -24,6 +24,14 @@ export const team = [
         url_param: "susan-wachira"
     },
     {
+        id: 2, 
+        name: "Martha Ochu",
+        position: 'Honourable Member of Nawo',
+        image: "/martha.jpg",
+        link: "/who-we-are/our-team/martha-ochu",
+        url_param: "martha-ochu"
+    },
+    {
         id: 1,
         name: "Dr. Ayoola Ogbe-Oyenuga",
         position: 'Honourable Member of Nawo',
@@ -35,18 +43,11 @@ export const team = [
         id: 1,
         name: "Vero Mgbodille",
         position: 'Honourable Member of Nawo',
-        image: "/vero.jpg",
+        image: "/vero-photo.jpg",
         link:"/who-we-are/our-team/vero-mgbodille",
         url_param: "vero-mgbodille"
     },
-    {
-        id: 2, 
-        name: "Martha Ochu",
-        position: 'Honourable Member of Nawo',
-        image: "/martha.jpg",
-        link: "/who-we-are/our-team/martha-ochu",
-        url_param: "martha-ochu"
-    },
+
     {
         id: 4,
         name: "Bridget Chijioke",
