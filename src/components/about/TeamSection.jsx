@@ -1,6 +1,7 @@
 import { LuMoveRight } from "react-icons/lu"
 import { team } from "../../data/team"
 import { useLocation, useNavigate } from "react-router-dom";
+import logo from "../../assets/logo.png"
 
 const TeamSection = () => {
   const { pathname }  = useLocation();
@@ -20,7 +21,14 @@ const TeamSection = () => {
                                                  team.map(item => 
                                                     <div className="team-moja" key={item.id} onClick={() =>navigate(item.link)}>
                                                                <div className="team-image">
-                                                                         <img src={url2 === "/our-team" ? `../${item.image}` : item.image} alt="" />
+                                                                      { item.image === "" ? 
+                                                                             <div className="temp-box">
+                                                                                        <img src={logo} alt="" />
+                                                                             </div>
+                                                                        :
+                                                                            <img src={url2 === "/our-team" ? `../${item.image}` : item.image} alt="" />
+                                                                        }
+                                                                         
                                                                          <div className="overflow"></div>
                                                                          <span><LuMoveRight /></span>
                                                                </div>

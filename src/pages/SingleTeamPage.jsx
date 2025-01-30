@@ -4,6 +4,7 @@ import { team } from "../data/team";
 import { projects } from "../data/projects"
 import Footer from "../components/common/Footer"
 import { HiArrowLongRight } from "react-icons/hi2"
+import logo from "../assets/logo.png"
 
 const SingleTeamPage = () => {
     const { name } = useParams();
@@ -20,7 +21,15 @@ const SingleTeamPage = () => {
                          <div className="inner-row">
                                    <div className="single-team-content">
                                                 <div className="member-description">
-                                                           <img src={member.image} alt="" />
+                                                        <div className="member-image">
+                                                                { member.image === "" ?
+                                                              <div className="temp-box">                                                                                 <img src={logo} alt="" />
+                                                                   </div>
+                                                             :
+                                                               <img src={`../../${member.image}`} alt="" />
+                                                          }
+                                                        </div>
+                                                           
                                                            <div className="member-texts">
                                                                      <h3>{member.name}</h3>
                                                                      <span>{member.position}</span>

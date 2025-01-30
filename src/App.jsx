@@ -11,6 +11,7 @@ import Work from "./pages/Work"
 import SingleWorkPage from "./pages/SingleWorkPage"
 import Team from "./pages/Team"
 import SingleTeamPage from "./pages/SingleTeamPage"
+import Events from "./pages/Events"
 
 function App() {
   const location = useLocation();
@@ -25,6 +26,7 @@ function App() {
               <Route path="/what-we-do" element={<Programs />} />
               <Route path="/what-we-do/:name" element={<SingleProgram />} />
               <Route path="/contact-us" element={<Contact />} />
+              <Route path="/nawo-events" element={<Events />} />
               <Route path="/donate" element={<Donation />} />
               <Route path="/our-work" element={<Work />} />
               <Route path="/our-work/:name" element={<SingleWorkPage />} />

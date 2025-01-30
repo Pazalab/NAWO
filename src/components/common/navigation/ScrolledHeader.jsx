@@ -21,21 +21,22 @@ const ScrolledHeader = () => {
 
       const url = pathname.slice(1, 10);
       const url2 = pathname.slice(11, 20);
+      const url3 = pathname.slice(1,5)
       useEffect(() => {
              window.addEventListener("scroll", ()=> {
                     if(window.scrollY > 150){
                           setScrolled(true)
                     }else{
                         setScrolled(false) 
-                        if(url === "our-work/" || url2 == "/our-team"){
+                        if(url === "our-work/" || url2 == "/our-team" || url3 == "nawo"){
                             setScrolled(true)
                        }
                     }
              })
-             if(url === "our-work/" || url2 === "/our-team"){
+             if(url === "our-work/" || url2 === "/our-team" || url3 === "nawo"){
                   setScrolled(true)
              }
-      }, [url, url2])
+      }, [url, url2, url3])
   return (
        <div className={ scrolled ? "scrolled-header active" : "scrolled-header"}>
                     <div className="header-content">

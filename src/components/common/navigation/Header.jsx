@@ -19,8 +19,10 @@ const Header = () => {
   const { pathname }  = useLocation();
   const url = pathname.slice(1, 10)
   const url2 = pathname.slice(11, 20);
+  const url3 = pathname.slice(1, 5);
+  
   return (
-         <header className={url === "our-work/" || url2 === "/our-team" ? "remove" : ""}>
+         <header className={url === "our-work/" || url2 === "/our-team" || url3 === "nawo" ? "remove" : ""}>
                        <div className="header-content">
                                  <Link to={"/"} className="logo">
                                           <img src={logo} alt="Nawo Logo" />

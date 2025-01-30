@@ -11,13 +11,12 @@ import event4 from "../../assets/hero1.jpg"
 import event_upcoming from "../../assets/event1.jpg"
 import { useCountdown } from "../../utils/counterutil";
 
-const TWO_DAYS_IN_MS = 262 * 24 * 60 * 60 * 1000
-  const NOW_IN_MS = new Date().getTime()
 
-  const dateTimeAfterDays = NOW_IN_MS + TWO_DAYS_IN_MS
+  const TARGET_DAY = new Date("October 18, 2025").getTime();
+  
 
 const EventsSection = () => {
-  const [ days, hours, minutes, seconds ] = useCountdown(dateTimeAfterDays)
+  const [ days, hours, minutes, seconds ] = useCountdown(TARGET_DAY)
   return (
     <div className="events-section">
              <div className="inner-row">
@@ -26,11 +25,10 @@ const EventsSection = () => {
                                           <h3>Upcoming Events</h3>
                                           <div className="events-section-column">
                                                        <h2>Exciting Opportunities to Make a Difference</h2>
-                                                       <Link to={"/events"}>All Events <span><HiArrowLongRight /></span></Link>
+                                                       <Link to={"/nawo-events"}>All Events <span><HiArrowLongRight /></span></Link>
                                              </div> 
                                   </div>
-                                  <div className="events-section-wrapper">
-                                                    
+                                  <div className="events-section-wrapper">                           
                                                     <div className="events-wrap">
                                                              <div className="single-event">
                                                                           <div className="single-event-flex">
