@@ -33,20 +33,21 @@ export const team = [
     },
     {
         id: 1,
+        name: "Vero Mgbodille",
+        position: 'Honorable Madam Ex-Vice President',
+        image: "/vero-photo.jpg",
+        link:"/who-we-are/our-team/vero-mgbodille",
+        url_param: "vero-mgbodille"
+    },
+    {
+        id: 1,
         name: "Dr. Ayoola Ogbe-Oyenuga",
         position: 'Honourable Member of Nawo',
         image: "/ayola.jpg",
         link:"/who-we-are/our-team/ayoola-oyenuga",
         url_param: "ayoola-oyenuga"
     },
-    {
-        id: 1,
-        name: "Vero Mgbodille",
-        position: 'Honourable Member of Nawo',
-        image: "/vero-photo.jpg",
-        link:"/who-we-are/our-team/vero-mgbodille",
-        url_param: "vero-mgbodille"
-    },
+
     {
         id: 6, 
         name: "Alice Moundemis",
