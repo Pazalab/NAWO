@@ -34,8 +34,7 @@ const SingleTeamPage = () => {
                                                                      <h3>{member.name}</h3>
                                                                      <span>{member.position}</span>
                                                                      
-                                                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod facere earum beatae illo omnis quaerat fugiat aperiam cumque odit! Quam deleniti voluptate porro dolore pariatur ratione voluptatum aperiam consequatur praesentium iusto, voluptatem, cum similique blanditiis nemo accusantium unde molestias.</p>
-                                                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus delectus minus, qui corporis quia ullam, tempora non sint tempore consequuntur quidem iste veritatis quo, nesciunt similique ex velit soluta sapiente quis rem rerum libero beatae laboriosam. Quas, consequatur as lit doe nad los.</p>
+                                                                     <p>{member.description}</p>
                                                            </div>
                                                 </div>
 
