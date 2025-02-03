@@ -20,7 +20,7 @@ export const team = [
     {
         id: 7,
         name: "Susan Wachira",
-        position: "CTO & Assistant Treasurer",
+        position: "CTO & Assistant Treasurer of Nawo",
         image: "/susan2.jpg",
         link: "/who-we-are/our-team/susan-wachira",
         url_param: "susan-wachira",
@@ -38,7 +38,7 @@ export const team = [
     {
         id: 1,
         name: "Vero Mgbodille",
-        position: 'Honorable Madam Ex-Vice President',
+        position: 'Honorable Madam Ex-Vice President of Nawo',
         image: "/vero-photo.jpg",
         link:"/who-we-are/our-team/vero-mgbodille",
         url_param: "vero-mgbodille",
