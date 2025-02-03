@@ -47,13 +47,21 @@ export const team = [
     {
         id: 1,
         name: "Dr. Ayoola Ogbe-Oyenuga",
-        position: 'Honourable Member of Nawo',
+        position: 'Honourable Ex-Secretary of Nawo',
         image: "/ayola.jpg",
         link:"/who-we-are/our-team/ayoola-oyenuga",
         url_param: "ayoola-oyenuga",
         description: "Ayoola is a listener, deeply committed to understanding the unique needs, values and aspirations of the communities she serves. She believes that listening is the first step in creating meaningful, lasting change. Only by truly understanding the experiences and perspectives of the people we work with can we begin to craft solutions that are relevant, respectful, and truly empowering. Her work is rooted in the belief that every voice matters, and that the answers to even the most difficult challenges lie within the communities themselves."
     },
-
+    {
+        id: 4,
+        name: "Bridget Chijioke",
+        position:'Honourable Ex-Assistant Treasurer of Nawo',
+        image: "/bridget2.jpg",
+        link: "/who-we-are/our-team/bridget-chijioke",
+        url_param: "bridget-chijioke",
+        description: "Bridget is someone who believes that every individual has the power to create lasting change, and she's committed to helping people discover that strength within themselves. She is driven by the knowledge that the most meaningful transformations occur when people are empowered to take control of their own lives and destinies. She works alongside individuals and communities not to impose solutions, but to help them discover and unlock their own potential. She believes that by fostering self-reliance and confidence, we create the conditions for enduring change that will last for generations."
+    },
     {
         id: 6, 
         name: "Alice Moundemis",
@@ -73,21 +81,11 @@ export const team = [
         url_param: "winnifred-obeya-ekoja",
         description: "Winnifred is a storyteller, compelled to share the voices and experiences of the people she works with because she believes that stories have the power to inspire action and create lasting change. She understands that stories of resilience, determination and hope from communities in need can light the way for others to take action. By sharing these stories, she aims to build understanding, compassion, and a sense of shared responsibility in the world. Every story, no matter how simple or complex, holds the power to inspire someone, somewhere, to take a stand and contribute to positive change."
     },
-
-    {
-        id: 4,
-        name: "Bridget Chijioke",
-        position:'Honourable Member of Nawo',
-        image: "/bridget2.jpg",
-        link: "/who-we-are/our-team/bridget-chijioke",
-        url_param: "bridget-chijioke",
-        description: "Bridget is someone who believes that every individual has the power to create lasting change, and she's committed to helping people discover that strength within themselves. She is driven by the knowledge that the most meaningful transformations occur when people are empowered to take control of their own lives and destinies. She works alongside individuals and communities not to impose solutions, but to help them discover and unlock their own potential. She believes that by fostering self-reliance and confidence, we create the conditions for enduring change that will last for generations."
-    },
     {
         id: 576,
         name: "Vivian Harris",
         position: "Honourable Member of Nawo",
-        image: "/vivian.jpg",
+        image: "/vivian2.jpg",
         link: "/who-we-are/our-team/vivian-harris",
         url_param: "vivian-harris",
         description: "Vivian is an optimist, believing that even in the face of immense challenges, change is always possible when people come together with purpose and determination. She refuses to accept that hardship and suffering are inevitable, and she dedicates herself to finding solutions that bring real hope to those who need it most. Her optimism is not naive; it is rooted in the countless examples of resilience, strength and courage I have witnessed in the communities she works with. She believes that no effort is too small, no act of kindness insignificant, and that with enough collective will, we can build a future where no is left behind."
