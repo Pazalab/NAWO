@@ -2,7 +2,7 @@
 const ContactForm = () => {
   return (
     <div className="contact-form">
-                <h3>Drop us a Message</h3>
+                <h3>Send Us a Message</h3>
                 <p>We’d love to hear from you! Share your thoughts, questions, or feedback with us, and we’ll get back to you as soon as we can.</p>
 
                 <form>

@@ -13,7 +13,8 @@ const ScrolledHeader = () => {
       const aboutData = [
           { title: "Story", link: "/who-we-are"},
           { title: "Team", link: "/who-we-are/our-team"},
-          { title: "Awards", link: "#"},
+          { title: "Nawo Events", link: "/nawo-events"},
+          { title: "Awards", link: "/awards"},
       ]
       const [status, setStatus] = useState(false)
       const [scrolled, setScrolled] = useState(false)

@@ -8,7 +8,7 @@ const ContactBody = () => {
                           <div className="contact-body-content">
                                       <div className="contact-body-column">
                                                    <h2>Have questions or need more details?</h2>
-                                                   <p>Don&apos;t hesitate to reach out! We&apos;re here to provide all the clarification you need and answer any questions you have. Let&apos;s connect and make a difference together!</p>
+                                                   <p>Noble African Women Organization (NAWO) is a 501c3 Charity Organization that assists less privileged African villagers. Don&apos;t hesitate to reach out! We&apos;re here to provide all the clarification you need and answer any questions you have. Let&apos;s connect and make a difference together!</p>
 
                                                    {/* <div className="contact-details">
                                                                 <div className="contact-detail-moja">

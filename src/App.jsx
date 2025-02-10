@@ -12,6 +12,7 @@ import SingleWorkPage from "./pages/SingleWorkPage"
 import Team from "./pages/Team"
 import SingleTeamPage from "./pages/SingleTeamPage"
 import Events from "./pages/Events"
+import Awards from "./pages/Awards"
 
 function App() {
   const location = useLocation();
@@ -32,6 +33,7 @@ function App() {
               <Route path="/our-work/:name" element={<SingleWorkPage />} />
               <Route path="/who-we-are/our-team" element={<Team />} />
               <Route path="/who-we-are/our-team/:name" element={<SingleTeamPage />} />
+              <Route path="/awards" element={<Awards />} />
     </Routes>
   )
 }

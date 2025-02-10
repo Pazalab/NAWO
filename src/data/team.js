@@ -11,7 +11,7 @@ export const team = [
     {
         id: 2, 
         name: "Martha Ochu",
-        position: 'Honourable Secretary of Nawo',
+        position: 'Honorable Assistant General Secretary',
         image: "/martha.jpg",
         link: "/who-we-are/our-team/martha-ochu",
         url_param: "martha-ochu",
@@ -48,7 +48,7 @@ export const team = [
     {
         id: 7,
         name: "Susan Wachira",
-        position: "CTO & Assistant Treasurer of Nawo",
+        position: "Honorable Financial Secretary",
         image: "/susan2.jpg",
         link: "/who-we-are/our-team/susan-wachira",
         url_param: "susan-wachira",
@@ -57,7 +57,7 @@ export const team = [
     {
         id: 1,
         name: "Dr. Ayoola Ogbe-Oyenuga",
-        position: 'Honourable Ex-Secretary of Nawo',
+        position: 'Honorable General Secretary',
         image: "/ayola.jpg",
         link:"/who-we-are/our-team/ayoola-oyenuga",
         url_param: "ayoola-oyenuga",
@@ -90,5 +90,14 @@ export const team = [
         link: "/who-we-are/our-team/vivian-harris",
         url_param: "vivian-harris",
         description: "Vivian is an optimist, believing that even in the face of immense challenges, change is always possible when people come together with purpose and determination. She refuses to accept that hardship and suffering are inevitable, and she dedicates herself to finding solutions that bring real hope to those who need it most. Her optimism is not naive; it is rooted in the countless examples of resilience, strength and courage I have witnessed in the communities she works with. She believes that no effort is too small, no act of kindness insignificant, and that with enough collective will, we can build a future where no is left behind."
-    }
+    },
+    {
+        id: 7894,
+        name: "Patricia D. Sawney",
+        position: "Honourable Member of Nawo",
+        image: "/patricia.jpg",
+        link: "/who-we-are/our-team/patricia-sawney",
+        url_param: "patricia-sawney",
+        description: "Patricia is a firm believer in justice and equity, knowing that true progress can only be achieved when every person has the same opportunity to succeed, regardless of where they were born. She stands against systems that perpetuate inequality and work tirelessly to ensure that marginalized communities have a voice, a platform, and the resources they need to thrive. Her dedication comes from a deep conviction that fairness and opportunity should not be privileges, but fundamental rights. She is committed to challenging barriers, advocating for those who are unheard, and working towards a world where no one is denied their chance at a better life."
+    }    
 ]

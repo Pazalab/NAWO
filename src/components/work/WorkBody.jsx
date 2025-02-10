@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom"
 import { CgSearch } from "react-icons/cg";
 import { IoIosArrowDown } from "react-icons/io";
 import { useState } from "react";
+import { PiMapPinLineLight } from "react-icons/pi";
 
 const WorkBody = () => {
     const navigate = useNavigate();
@@ -14,7 +15,7 @@ const WorkBody = () => {
     const [ yearState, setYearState ] = useState("All");
     const [ countryActive, setCountryActive ] = useState(false);
     const [ countryState, setCountryState ] = useState("All")
-    const names = projects.map(item => item.name)
+    const names = [...new Set([...projects.map(item => item.name)])]
     const years = projects.map(item =>item.project_year).reduce((acc, curr) => {
              if(!acc.includes(curr)){
                     acc.push(curr)
@@ -159,7 +160,7 @@ const WorkBody = () => {
                                                           </div>
                                                           <div className="project-texts">
                                                                      <h3>{item.title}</h3>
-                                                                     <h4>Location: <span>{item.location}</span></h4>
+                                                                     <h4><span className="icon"><PiMapPinLineLight /></span><span>{item.location}</span></h4>
                                                           </div>
                                                      </div>
                                             )
