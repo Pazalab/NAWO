@@ -16,3 +16,114 @@
 .past-events-wrap{
       margin-top: 40px;
 }
+
+/* Single Event */
+.single-event-texts a{
+    margin-top: 20px;
+    width: 200px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    height: 50px;
+    border: 2px solid var(--main-color);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    color: #222;
+    font-size: 16px;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75s ease;
+    background: var(--main-color);
+    color: white;
+}
+.single-event-texts a span{
+    display: flex;
+    margin-top: 4px;
+}
+
+.single-event-page{
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.event-grid{
+     width: 1000px;
+     margin: auto;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 80px;
+     align-items: center;
+}
+
+.single-event-image img{
+      height: 450px;
+      object-fit: contain;
+}
+
+.single-event-body-texts h3{
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 1.5;
+      margin-bottom: 20px;
+}
+
+.single-event-body-texts h4{
+      font-size: 20px;
+      font-weight: 350;
+      margin-bottom: 10px;
+}
+
+.single-event-body-texts p{
+     font-size: 17px;
+     line-height: 1.5;
+     font-weight: 250;
+}
+
+.sponsors{
+    margin-top: 60px;
+}
+
+.sponsors h4{
+     font-size: 20px;
+     font-weight: 500;
+     margin-bottom: 20px;
+     padding-bottom: 10px;
+     color: var(--secondary-color);
+     border-bottom: 1px solid rgba(234, 232, 225, 0.652);
+}
+.corporate-sponsors{
+    margin-bottom: 30px;
+}
+.sponsor-logos{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.sponsor-logos img{
+     width: 150px;
+}
+
+@media(max-width: 1090px){
+      .event-grid{
+            width: 100%;
+      }
+}
+
+@media(max-width: 768px){
+      .event-grid{
+           grid-template-columns: 1fr;
+           gap: 30px;
+      }
+      .single-event-body-texts h3{
+            font-size: 32px;
+      }
+}

@@ -3,9 +3,9 @@ import { CgClose } from "react-icons/cg"
 import { Link, NavLink } from "react-router-dom"
 import gsap from "gsap"
 import { sidebarContext } from "./navcontext"
-import { MdPhone } from "react-icons/md";
-import { PiEnvelopeLight } from "react-icons/pi";
-import { SiGooglemaps } from "react-icons/si";
+// import { MdPhone } from "react-icons/md";
+// import { PiEnvelopeLight } from "react-icons/pi";
+// import { SiGooglemaps } from "react-icons/si";
 import { FaFacebook, FaXTwitter, FaLinkedinIn, FaYoutube } from "react-icons/fa6";
 import Dropdown from "./Dropdown"
 import { IoIosArrowDown } from "react-icons/io";
@@ -74,19 +74,19 @@ const Sidebar = () => {
                                                                <Dropdown status={status} data={aboutData}/>
                                                      </li>
                                                      <li><NavLink to={"/what-we-do"}>What We Do</NavLink></li>
-                                                     <li><NavLink to={"/events"}>Events</NavLink></li>
+                                                     <li><NavLink to={"/our-work"}>Our Work</NavLink></li>
                                                      <li><NavLink to={"/contact-us"}>Contact Us</NavLink></li>
                                              </ul>
 
                                              <Link to={"/donate"} className="donate-btn">Donate</Link>
                                   </div>
                                    <div className="sidebar-extra">
-                                              <div className="sidebar-extra-column">
+                                              {/* <div className="sidebar-extra-column">
                                                           <h4>Contact Information</h4>
                                                           <p><span><MdPhone /></span> +1 (555) 0748 999</p>
                                                           <p><span><PiEnvelopeLight /></span>support@nobleafricanwomen.org</p>
                                                           <p><span><SiGooglemaps /></span>3346 Dolfield Ave Baltimore, Maryland</p>
-                                              </div>
+                                              </div> */}
                                               <div className="sidebar-extra-column">
                                                             <h4>Connect with Us</h4>
                                                             <div className="social-links">

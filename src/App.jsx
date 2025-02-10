@@ -13,6 +13,7 @@ import Team from "./pages/Team"
 import SingleTeamPage from "./pages/SingleTeamPage"
 import Events from "./pages/Events"
 import Awards from "./pages/Awards"
+import SingleEventPage from "./pages/SingleEventPage"
 
 function App() {
   const location = useLocation();
@@ -28,6 +29,7 @@ function App() {
               <Route path="/what-we-do/:name" element={<SingleProgram />} />
               <Route path="/contact-us" element={<Contact />} />
               <Route path="/nawo-events" element={<Events />} />
+              <Route path="/nawo-events/:event" element={<SingleEventPage />} />
               <Route path="/donate" element={<Donation />} />
               <Route path="/our-work" element={<Work />} />
               <Route path="/our-work/:name" element={<SingleWorkPage />} />

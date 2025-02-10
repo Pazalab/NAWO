@@ -10,6 +10,7 @@ import "../styles/events.css"
 import Footer from "../components/common/Footer";
 import past_event1 from "../assets/event2.jpg"
 import past_event2 from "../assets/award.jpeg"
+import { HiArrowLongRight } from "react-icons/hi2";
 
 const TARGET_DAY = new Date("October 18, 2025").getTime();
 
@@ -37,6 +38,8 @@ const Events = () => {
                                                                                                  </div>
                                                                                                  <h3>NAWO 3rd Anniversary Fundraising Gala</h3>
                                                                                                  <p>Its more than just a fundraising event—it’s a celebration of generosity, unity, and the power of community. Join us for an inspiring evening where every contribution fuels life-changing initiatives across African villages. Together, we’ll share stories of impact, connect with like-minded individuals, and raise crucial funds to support education, healthcare, women’s empowerment, and economic development. It’s your chance to be part of something bigger, creating hope and brighter futures—one village at a time!</p>
+
+                                                                                                 <Link to={"/nawo-events/nawo-3rd-anniversary-fundraising-gala"}>Explore Event <HiArrowLongRight /></Link>
                                                                                        </div>
                                                                           </div>
                                                                           
