@@ -43,7 +43,7 @@ const Header = () => {
                                              {/* <div className="search-box">
                                                        <span><TfiSearch /></span>
                                              </div> */}
-                                             <Link to={"/donate"}>Donate Today <span><PiHandHeartLight /></span></Link>
+                                             <Link to={"/donate"}>Donate with Zelle <span><PiHandHeartLight /></span></Link>
                                              <span className="menu-btn" onClick={() => setSidebarStatus(true)}><CgMenu /></span>
                                   </div>
                        </div>

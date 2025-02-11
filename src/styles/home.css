@@ -514,7 +514,7 @@
 }
 
 .donation-description a{
-     width: 200px;
+     width: 220px;
      margin-top: 30px;
      height: 50px;
      background: var(--main-color);
@@ -951,7 +951,12 @@
       padding: 50px 0;
       background: #d1a102;
 }
-
+.partners-strip-content h3{
+         text-align: center;
+         margin-bottom: 20px;
+         font-weight: 400;
+         color: whitesmoke;
+}
 .partner-logos{
        display: flex;
        gap: 30px;
@@ -962,8 +967,7 @@
 
 .partner-logos img{
         width: 180px;
-        filter: invert(10);
-        -webkit-filter: invert(10);
+       
 }
 
 

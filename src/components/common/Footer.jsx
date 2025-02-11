@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import { FaFacebook, FaXTwitter, FaLinkedinIn, FaYoutube } from "react-icons/fa6";
 import logo from "../../assets/logo.png"
+import { HiArrowUpRight } from "react-icons/hi2";
 const Footer = () => {
   return (
     <footer>
@@ -11,7 +12,7 @@ const Footer = () => {
                                     <div className="footer-column">
                                                <div className="footer-column-inner">
                                                         <p>Get in touch with our team</p>
-                                                        <Link to={"/"}>info@nobleafricanwomen.org</Link>
+                                                        <Link to={"/contact-us"}>Connect with Us <span><HiArrowUpRight /></span></Link>
                                                </div>
                                     </div>
                         </div>
@@ -23,8 +24,8 @@ const Footer = () => {
                                   <div className="social-links">
                                            <ul>
                                                     <li><Link to={"/"}><span><FaFacebook /></span></Link></li>
-                                                    <li><Link to={"/"}><span><FaXTwitter /></span></Link></li>
-                                                    <li><Link to={"/"}><span><FaLinkedinIn /></span></Link></li>
+                                                    {/* <li><Link to={"/"}><span><FaXTwitter /></span></Link></li>
+                                                    <li><Link to={"/"}><span><FaLinkedinIn /></span></Link></li> */}
                                                     <li><Link to={"/"}><span><FaYoutube /></span></Link></li>
                                            </ul>
                                   </div>

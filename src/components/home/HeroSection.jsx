@@ -67,7 +67,7 @@ const HeroSection = () => {
 
                                                                                                  <div className="hero-links">
                                                                                                           <Link to={"/who-we-are"}>Explore More <span><HiArrowLongRight /></span></Link>
-                                                                                                          <Link to={"/donate"}>Donate <span><PiHandHeartLight /></span></Link>
+                                                                                                          <Link to={"/donate"}>Donate with Zelle<span><PiHandHeartLight /></span></Link>
                                                                                                  </div>
                                                                                       </div>
                                                                             </div>

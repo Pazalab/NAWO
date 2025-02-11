@@ -29,12 +29,16 @@ const SingleWorkBody = ({ data }) => {
                                                          </div>
                                                          :
                                                          <div className="video-grid">
-                                                                    { data.videos.map(item => 
-                                                                           <div className="video-box" key={item}>
-                                                                                      {/* <iframe src={item}  allowfullscreen title='video'  /> */}
-                                                                                      <video src={item} controls></video>
-                                                                           </div>
-                                                                    )}
+                                                                    { 
+                                                                    data.videos.length > 0 ?
+                                                                            data.videos.map(item => 
+                                                                                   <div className="video-box" key={item}>
+                                                                                              <video src={item} controls></video>
+                                                                                   </div>
+                                                                            )
+                                                                            :
+                                                                            <p className="no-show">Sorry. There are no videos for this project.</p>
+                                                                }    
                                                          </div>
                                                      }
                                     </div>

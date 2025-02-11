@@ -179,7 +179,7 @@ header.remove{
 }
 .header-extra a{
       background: var(--main-color);
-      width: 180px;
+      width: 200px;
       height: 50px;
       display: flex;
       align-items: center;
@@ -409,7 +409,8 @@ header.remove{
 }
 .sidebar-content .donate-btn{
      background: var(--main-color);
-     width: 180px;
+     width: 200px;
+     font-size: 16px;
      height: 50px;
      display: flex;
      align-items: center;
@@ -466,6 +467,7 @@ header.remove{
 
 footer{
        border-top: 1px solid rgba(233, 231, 224, 0.441);
+       background: rgb(248, 246, 241)
 }
 
 .footer-content{
@@ -489,14 +491,29 @@ footer{
 .footer-column p{
       margin-bottom: 10px;
       color: #555;
+      font-size: 24px;
 }
 .footer-column a{
-      text-decoration:underline;
+      width: 200px;
       display: flex;
-      font-size: 36px;
-      color: var(--main-color);
+      height: 50px;
+      align-items: center;
+      justify-content: center;
+      background: var(--main-color);
+      color: whitesmoke;
+      border-radius: 50px;
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      -ms-border-radius: 50px;
+      -o-border-radius: 50px;
+      gap: 5px;
+      font-size: 16px;
 }
-
+.footer-column a span{
+       display: flex;
+       font-size: 13px;
+       margin-top: 4px;
+}
 .copyright{
       display: flex;
       align-items: center;
@@ -523,7 +540,7 @@ footer{
 .awards-page-body{
       height: 75vh;
       position: relative;
-      background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url("./assets/awardsBG.jpg") no-repeat;
+      background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url("./assets/awardsBG3.jpg") no-repeat;
       background-size: cover;
       background-position: 50% 20%;
 }

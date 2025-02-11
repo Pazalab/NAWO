@@ -78,7 +78,7 @@ const Sidebar = () => {
                                                      <li><NavLink to={"/contact-us"}>Contact Us</NavLink></li>
                                              </ul>
 
-                                             <Link to={"/donate"} className="donate-btn">Donate</Link>
+                                             <Link to={"/donate"} className="donate-btn">Donate with Zelle</Link>
                                   </div>
                                    <div className="sidebar-extra">
                                               {/* <div className="sidebar-extra-column">
@@ -92,8 +92,8 @@ const Sidebar = () => {
                                                             <div className="social-links">
                                                                       <ul>
                                                                                <li><Link to={"/"}><span><FaFacebook /></span></Link></li>
-                                                                               <li><Link to={"/"}><span><FaXTwitter /></span></Link></li>
-                                                                               <li><Link to={"/"}><span><FaLinkedinIn /></span></Link></li>
+                                                                               {/* <li><Link to={"/"}><span><FaXTwitter /></span></Link></li>
+                                                                               <li><Link to={"/"}><span><FaLinkedinIn /></span></Link></li> */}
                                                                                <li><Link to={"/"}><span><FaYoutube /></span></Link></li>
                                                                       </ul>
                                                             </div>

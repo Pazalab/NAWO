@@ -38,7 +38,7 @@ export const team = [
     {
         id: 5,
         name: "Amaka Nnamchi Ezekwueche",
-        position: "President of Nawo",
+        position: "Honorable President of Nawo",
         image: "/amaka-photo.jpg",
         link: "/who-we-are/our-team/amaka-nnamchi-ezekwueche",
         url_param: "amaka-nnamchi-ezekwueche",

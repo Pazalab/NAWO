@@ -18,7 +18,7 @@ const DonationSection = () => {
 
                            <p>We deeply value any contribution you can make, as it plays a vital role in driving the success of our causes and creating meaningful impact.</p>
 
-                           <Link to={"/donate"}>Donate <span><PiHandHeartLight /></span></Link>
+                           <Link to={"/donate"}>Donate with Zelle <span><PiHandHeartLight /></span></Link>
                </div>
     </div>
   )

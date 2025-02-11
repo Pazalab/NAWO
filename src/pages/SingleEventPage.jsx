@@ -1,11 +1,11 @@
 import Navbar from "../components/common/navigation/Navbar"
 import eventImg from "../assets/event1.jpg"
 import Footer from "../components/common/Footer"
-import sponsor1 from "../assets/sanfrancisco.png"
-import sponsor2 from "../assets/rise.png"
-import sponsor3 from "../assets/snowflake.png"
-import sponsor4 from "../assets/vancouver.png"
-import sponsor5 from "../assets/springfield.png"
+// import sponsor1 from "../assets/sanfrancisco.png"
+// import sponsor2 from "../assets/rise.png"
+// import sponsor3 from "../assets/snowflake.png"
+// import sponsor4 from "../assets/vancouver.png"
+// import sponsor5 from "../assets/springfield.png"
 const SingleEventPage = () => {
   return (
     <>
@@ -28,14 +28,19 @@ const SingleEventPage = () => {
                                                   </div>
                                        </div>
 
+                                       <div className="program-of-events">
+                                               <div className="event-program-moja">
+                                                           <span>1</span>
+                                               </div>
+                                       </div>
                                        <div className="sponsors">
                                                 <div className="corporate-sponsors">
                                                           <h4>Corporate Sponsors</h4>
 
                                                           <div className="sponsor-logos">
-                                                                     <img src={sponsor1} alt="" />
-                                                                     <img src={sponsor2} alt="" />
-                                                                     <img src={sponsor3} alt="" />
+                                                                     <img src={''} alt="" />
+                                                                     {/* <img src={''} alt="" />
+                                                                     <img src={''} alt="" /> */}
                                                           </div>
                                                 </div>
 
@@ -43,8 +48,8 @@ const SingleEventPage = () => {
                                                           <h4>Photographer & Videographer</h4>
 
                                                           <div className="sponsor-logos">
-                                                                     <img src={sponsor4} alt="" />
-                                                                     <img src={sponsor5} alt="" />
+                                                                     <img src={''} alt="" />
+                                                                     {/* <img src={''} alt="" /> */}
                                                           </div>
                                                 </div>
                                        </div>

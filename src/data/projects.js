@@ -92,7 +92,7 @@ export const projects = [
         date: "",
         project_year: "2023",
         country: "Kenya",
-        location: "Mathare, Nyeri, Kenya",
+        location: "Mathari, Nyeri, Kenya",
         photos: [
             "/projects/susan/swn2.jpg",
             "/projects/susan/swn3.jpg",
@@ -109,19 +109,20 @@ export const projects = [
     url_param: "scholarship-and-food-donation",
     owner: "Susan Wachira",
     name: "Susan Wachira",
-    coverphoto: "/projects/susan/2021/nawo1.jpg",
+    coverphoto: "/projects/susan/2021/nawo4.jpg",
     date: "",
     project_year: "2021",
     country: "Kenya",
-    location: "Mathare, Nyeri, Kenya",
+    location: "Mathari, Nyeri, Kenya",
     photos: [
         "/projects/susan/2021/nawo6.jpg",
         "/projects/susan/2021/nawo7.jpg",
         "/projects/susan/2021/nawo2.jpg",
+        "/projects/susan/2021/nawo1.jpg",
         "/projects/susan/2021/nawo4.jpg",
         "/projects/susan/2021/nawo5.jpg",
         "/projects/susan/2021/nawo9.jpg",
-        "/projects/susan/2021/nawo3.jpg"
+        "/projects/susan/2021/nawo3.jpg",
     ]
  },
  {
@@ -156,5 +157,46 @@ export const projects = [
          "/projects/patricia/pat18.jpg",
          "/projects/patricia/pat1.jpg",
     ]
+ },
+ {
+    id: 7748,
+    title: "Food Donation and Supporting Methodist  Church Cathedral(Widows)",
+    location: "Okitipupa, Ondo State, Nigeria",
+    date: "",
+    project_year: "2021",
+    owner: "Dr. Ayoola Ogbe-Oyenuga",
+    coverphoto: "/projects/ayoola/ayoola1.jpg",
+    name: "Dr. Ayoola Ogbe-Oyenuga",
+    country: "Nigeria",
+    link: "/our-work/food-donation-and-supporting-methodist-church-cathedral-widows",
+    url_param: "food-donation-and-supporting-methodist-church-cathedral-widows",
+    photos: [
+          "/projects/ayoola/ayoola2.jpg",
+          "/projects/ayoola/ayoola3.jpg",
+          "/projects/ayoola/ayoola1.jpg",
+    ],
+    videos: [
+        "/projects/ayoola/ayoola-vid1.mp4",
+        "/projects/ayoola/ayoola-vid2.mp4"
+    ]
+ },
+ {
+    id: 8794,
+    title: "Scholarships at Methodist High School",
+    location: "Okitipupa, Ondo State, Nigeria",
+    date: "",
+    project_year: "2023",
+    owner: "Dr. Ayoola Ogbe-Oyenuga",
+    name: "Dr. Ayoola Ogbe-Oyenuga",
+    coverphoto: "/projects/ayoola/ayoola4.jpg",
+    link: "/our-work/scholarships-at-methodist-high-school",
+    country: "Nigeria",
+    url_param: "scholarships-at-methodist-high-school",
+    photos: [
+        "/projects/ayoola/ayoola5.jpg",
+        "/projects/ayoola/ayoola6.jpg",
+        "/projects/ayoola/ayoola4.jpg",
+    ],
+    videos: []
  }
 ]
