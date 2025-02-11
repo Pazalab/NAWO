@@ -94,11 +94,11 @@ export const projects = [
         country: "Kenya",
         location: "Mathari, Nyeri, Kenya",
         photos: [
-            "/projects/susan/swn2.jpg",
-            "/projects/susan/swn3.jpg",
-            "/projects/susan/swn4.jpg",
-            "/projects/susan/swn5.jpg",
-            "/projects/susan/swn1.jpg",
+            "/projects/susan/2023/swn2.jpg",
+            "/projects/susan/2023/swn3.jpg",
+            "/projects/susan/2023/swn4.jpg",
+            "/projects/susan/2023/swn5.jpg",
+            "/projects/susan/2023/swn1.jpg",
         ],
         videos: []
  },
@@ -126,7 +126,7 @@ export const projects = [
     ]
  },
  {
-    id: 8794,
+    id: 87904,
     title: "Operation Giving Back to my beloved community",
     link: "/our-work/operation-giving-back-to-my-beloved-community",
     url_param: "operation-giving-back-to-my-beloved-community",
@@ -156,7 +156,8 @@ export const projects = [
          "/projects/patricia/pat17.jpg",
          "/projects/patricia/pat18.jpg",
          "/projects/patricia/pat1.jpg",
-    ]
+    ],
+    videos: []
  },
  {
     id: 7748,

@@ -17,7 +17,7 @@ const AboutBody = () => {
 
                                                 <div className="about-dangling-texts">
                                                               <h3>Acts of kindness ripple outward, spreading compassion and inspiring others to follow suit.</h3>
-                                                              <Link to={"/donate"}>Donate</Link>
+                                                              <Link to={"/donate"}>Donate with Zelle</Link>
                                                 </div>
                                      </div>
                         </div>

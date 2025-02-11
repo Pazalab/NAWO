@@ -723,9 +723,10 @@
 }
 
 .event-moja h3{
-      font-size: 32px;
+      font-size: 22px;
       line-height: 1.4;
       margin: 5px 0;
+      font-weight: 600;
 }
 .event-texts p{
         font-size: 15px;
