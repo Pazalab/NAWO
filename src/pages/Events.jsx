@@ -39,7 +39,7 @@ const Events = () => {
                                                                                                  <h3>NAWO 3rd Anniversary Fundraising Gala</h3>
                                                                                                  <p>Its more than just a fundraising event—it’s a celebration of generosity, unity, and the power of community. Join us for an inspiring evening where every contribution fuels life-changing initiatives across African villages. Together, we’ll share stories of impact, connect with like-minded individuals, and raise crucial funds to support education, healthcare, women’s empowerment, and economic development. It’s your chance to be part of something bigger, creating hope and brighter futures—one village at a time!</p>
 
-                                                                                                 <Link to={"/nawo-events/nawo-3rd-anniversary-fundraising-gala"}>Explore Event <HiArrowLongRight /></Link>
+                                                                                                 <Link to={"/nawo-event/nawo-3rd-anniversary-fundraising-gala"}>Explore Event <HiArrowLongRight /></Link>
                                                                                        </div>
                                                                           </div>
                                                                           

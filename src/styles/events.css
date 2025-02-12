@@ -165,10 +165,206 @@
 }
 
 
+.event-page-landing{
+      height: 110vh;
+      position: relative;
+      background: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url("../assets/eventBG.jpg") no-repeat;
+      background-size: cover;
+      background-position: 50% 20%;
+  }
+
+.single-hero-content{
+       display: flex;
+       align-items: center;
+       height: calc(95vh - 80px)
+}
+
+.single-event-hero-grid{
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        gap: 80px;
+        width: 100%;
+        align-items: center;
+}
+
+.single-hero-image{
+        height: 450px;
+        display: flex;
+        justify-content: center;
+}
+.single-hero-image img{
+        object-fit: contain;
+}
+
+
+.single-hero-texts h3{
+       padding: 10px 30px;
+       display: inline-block;
+       border: 2px solid var(--main-color);
+       color: whitesmoke;
+       font-size: 16px;
+       font-weight: 340;
+}
+.single-hero-texts h1{
+       font-size: 50px;
+       color: whitesmoke;
+       margin: 10px 0;
+       line-height: 1.4;
+}
+
+.single-hero-texts p{
+       color: rgb(216, 216, 216);;
+       font-weight: 300;
+       font-size: 18px;
+       line-height: 1.5;
+}
+
+.single-hero-row{
+       margin-top: 30px;
+       display: flex;
+       gap: 20px;
+       flex-wrap: wrap;
+}
+.single-hero-box h4{
+      color: white;
+      font-weight: 450;
+      font-size: 20px;
+      display: flex;
+      gap: 5px;
+      align-items: center;
+}
+.single-hero-box h4 span{
+       font-size: 28px;
+       display: flex;
+       color: var(--main-color);
+}
+
+.single-event-wrap{
+       padding: 60px 30px;
+       background: var(--secondary-color);
+}
+
+.event-countdown-wrap h3{
+       font-size: 25px;
+       text-align: center;
+       font-weight: 300;
+       margin-bottom: 40px;
+       color: whitesmoke;
+       text-transform: uppercase;
+}
+
+.countdown-flex{
+      display: flex;;
+      margin: 30px 0px 0px 0px;
+      gap: 30px;
+      justify-content: center;
+      flex-wrap: wrap;
+}
+
+.countdown-flex .count-box{
+       width: 150px;
+       height: 150px;
+}
+.countdown-flex .count-box span{
+       font-size: 55px;
+       font-weight: 500;
+}
+
+.event-details-section{
+       padding: 100px 0;
+}
+.event-details-content{
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        gap: 80px;
+        align-items: center;
+}
+.event-detail-image{
+       height: max-content;
+}
+.event-details-texts h3{
+      font-size: 15px;
+      text-transform: uppercase;
+      font-weight: 400;
+}
+
+.event-details-texts h2{
+       font-size: 55px;
+       margin: 10px 0;
+}
+
+.event-details-texts p{
+      font-weight: 300;
+      line-height: 1.7;
+      color: rgb(60, 60, 60);
+      font-size: 20px;
+      margin-bottom: 20px;
+}
+
+.itinerary-wrap{
+       border-top: 1px solid rgba(241, 226, 179, 0.4);
+       padding-top: 20px;
+}
+
+.itinerary-wrap h4{
+       font-weight: 450;
+       font-size: 24px;
+}
+
+.itinerary-wrap ul{
+       list-style-type: disc;
+       width: 90%;
+       margin: 10px auto;
+}
+.itinerary-wrap ul li{
+       font-style: italic;
+       margin-bottom: 10px;
+}
+
+.event-image-strip{
+       height: 500px;
+       background: url("../assets/event4.jpg") no-repeat;
+       background-size: cover;
+       background-position: center;
+}
+
+
+.sponsors-row{
+        padding: 100px 0;
+}
+
+.partners-content h4{
+       font-size: 17px;
+       text-transform: uppercase;
+       font-weight: 400;
+       text-align: center;
+       margin-bottom: 20px;
+}
+
+.sponsors-logos{
+      display: flex;;
+      gap: 30px;
+      justify-content: center;
+      flex-wrap: wrap;
+}
+
+.sponsors-logos img{
+      width: 180px;
+}
+
+
+
 
 @media(max-width: 1090px){
       .event-grid{
             width: 100%;
+      }
+      .single-event-hero-grid{
+             grid-template-columns: 1fr;
+      }
+
+      .single-hero-image{
+             display: none;
       }
 }
 
@@ -188,4 +384,34 @@
              font-size: 14px;
              margin: 0;
       }
+
+      .single-hero-texts{
+             text-align: center;
+      }
+      .single-hero-texts h1{
+            font-size: 36px;
+      }
+
+      .single-hero-row{
+              justify-content: center;
+      }
+
+      .event-details-content{
+            grid-template-columns: 1fr;
+            gap: 30px;
+      }
+
+      .event-details-texts h2{
+              font-size: 40px;
+      }
+}
+
+@media(max-width: 530px){
+         .countdown-flex .count-box{
+                 width: 100px;
+                 height: 100px;
+         }
+         .countdown-flex .count-box span{
+               font-size: 36px;
+         }
 }

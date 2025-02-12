@@ -1,12 +1,16 @@
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import { FaFacebook, FaXTwitter, FaLinkedinIn, FaYoutube } from "react-icons/fa6";
 import logo from "../../assets/logo.png"
 import { HiArrowUpRight } from "react-icons/hi2";
 const Footer = () => {
+
+  const { pathname } = useLocation();
+
+  const url = pathname.slice(1, 8);
   return (
     <footer>
                <div className="inner-row">
-                        <div className="footer-content">
+                        <div className={ url === "contact" ? "footer-content remove" : "footer-content"}>
                                     <h3>Let&apos;s talk about how we can change lives together!</h3>
 
                                     <div className="footer-column">

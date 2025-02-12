@@ -29,7 +29,7 @@ function App() {
               <Route path="/what-we-do/:name" element={<SingleProgram />} />
               <Route path="/contact-us" element={<Contact />} />
               <Route path="/nawo-events" element={<Events />} />
-              <Route path="/nawo-events/:event" element={<SingleEventPage />} />
+              <Route path="/nawo-event/:event" element={<SingleEventPage />} />
               <Route path="/donate" element={<Donation />} />
               <Route path="/our-work" element={<Work />} />
               <Route path="/our-work/:name" element={<SingleWorkPage />} />

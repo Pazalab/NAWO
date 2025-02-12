@@ -118,12 +118,13 @@ export const projects = [
         "/projects/susan/2021/nawo6.jpg",
         "/projects/susan/2021/nawo7.jpg",
         "/projects/susan/2021/nawo2.jpg",
-        "/projects/susan/2021/nawo1.jpg",
+        "/projects/susan/2021/nawo10.jpg",
         "/projects/susan/2021/nawo4.jpg",
         "/projects/susan/2021/nawo5.jpg",
         "/projects/susan/2021/nawo9.jpg",
-        "/projects/susan/2021/nawo3.jpg",
-    ]
+        // "/projects/susan/2021/nawo3.jpg",
+    ],
+    videos: []
  },
  {
     id: 87904,

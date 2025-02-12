@@ -22,19 +22,19 @@ const ScrolledHeader = () => {
 
       const url = pathname.slice(1, 10);
       const url2 = pathname.slice(11, 20);
-      const url3 = pathname.slice(1,5)
+      const url3 = pathname.slice(1,12)
       useEffect(() => {
              window.addEventListener("scroll", ()=> {
                     if(window.scrollY > 150){
                           setScrolled(true)
                     }else{
                         setScrolled(false) 
-                        if(url === "our-work/" || url2 == "/our-team" || url3 == "nawo"){
+                        if(url === "our-work/" || url2 == "/our-team" || url3 == "nawo-events"){
                             setScrolled(true)
                        }
                     }
              })
-             if(url === "our-work/" || url2 === "/our-team" || url3 === "nawo"){
+             if(url === "our-work/" || url2 === "/our-team" || url3 === "nawo-events"){
                   setScrolled(true)
              }
       }, [url, url2, url3])
