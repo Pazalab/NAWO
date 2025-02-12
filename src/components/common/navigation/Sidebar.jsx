@@ -16,7 +16,7 @@ const Sidebar = () => {
       const aboutData = [
           { title: "Story", link: "/about-us"},
           { title: "Team", link: "/team"},
-          { title: "Nawo Events", link: "/nawo-events"},
+          { title: "NAWO Events", link: "/nawo-events"},
           { title: "Awards", link: "/awards"},
       ]
       const [status, setStatus] = useState(false)

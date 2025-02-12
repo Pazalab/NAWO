@@ -13,7 +13,7 @@ const Header = () => {
   const aboutData = [
       { title: "Story", link: "/who-we-are"},
       { title: "Team", link: "/who-we-are/our-team"},
-      { title: "Nawo Events", link: "/nawo-events"},
+      { title: "NAWO Events", link: "/nawo-events"},
       { title: "Awards", link: "/awards"},
   ]
   const [status, setStatus] = useState(false)

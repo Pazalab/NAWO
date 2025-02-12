@@ -1,7 +1,7 @@
 export const projects = [
     {
         id: 0,
-        coverphoto: "/projects/winnie/winnie9.jpg",
+        coverphoto: "/projects/winnie/winnie4.jpg",
         title: "Benefitting Village - Okpoga Community (OSTV)",
         location: "Okpokwulga of Benue State, Nigeria",
         date: "21st December, 2023",

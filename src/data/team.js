@@ -2,7 +2,7 @@ export const team = [
     {
         id: 6, 
         name: "Alice Moundemis",
-        position: 'Honourable Member of Nawo',
+        position: 'Honourable Member of NAWO',
         image: "/alice-photo.jpg",
         link: "/who-we-are/our-team/alice-moundemis",
         url_param: "alice-moundemis",
@@ -11,7 +11,7 @@ export const team = [
     {
         id: 2, 
         name: "Martha Ochu",
-        position: 'Honorable Assistant General Secretary',
+        position: 'Honorable Assistant General Secretary of NAWO',
         image: "/martha.jpg",
         link: "/who-we-are/our-team/martha-ochu",
         url_param: "martha-ochu",
@@ -20,7 +20,7 @@ export const team = [
     {
         id: 3,
         name: "Glory Anyaegbu",
-        position: "Vice President & Treasurer of Nawo",
+        position: "Vice President & Treasurer of NAWO",
         image: "glory.jpg",
         link: "/who-we-are/our-team/glory-anyaegbu",
         url_param: "glory-anyaegbu",
@@ -29,7 +29,7 @@ export const team = [
     {
         id: 1,
         name: "Vero Mgbodille",
-        position: 'Honorable Madam Ex-Vice President of Nawo',
+        position: 'Honorable Madam Ex-Vice President of NAWO',
         image: "/vero-photo.jpg",
         link:"/who-we-are/our-team/vero-mgbodille",
         url_param: "vero-mgbodille",
@@ -38,7 +38,7 @@ export const team = [
     {
         id: 5,
         name: "Amaka Nnamchi Ezekwueche",
-        position: "Honorable President of Nawo",
+        position: "Honorable President of NAWO",
         image: "/amaka-photo.jpg",
         link: "/who-we-are/our-team/amaka-nnamchi-ezekwueche",
         url_param: "amaka-nnamchi-ezekwueche",
@@ -48,7 +48,7 @@ export const team = [
     {
         id: 7,
         name: "Susan Wachira",
-        position: "Honorable Financial Secretary",
+        position: "Honorable Financial Secretary of NAWO",
         image: "/susan2.jpg",
         link: "/who-we-are/our-team/susan-wachira",
         url_param: "susan-wachira",
@@ -57,7 +57,7 @@ export const team = [
     {
         id: 1,
         name: "Dr. Ayoola Ogbe-Oyenuga",
-        position: 'Honorable General Secretary',
+        position: 'Honorable General Secretary of NAWO',
         image: "/ayola.jpg",
         link:"/who-we-are/our-team/ayoola-oyenuga",
         url_param: "ayoola-oyenuga",
@@ -66,7 +66,7 @@ export const team = [
     {
         id: 4,
         name: "Bridget Chijioke",
-        position:'Honourable Ex-Assistant Treasurer of Nawo',
+        position:'Honourable Ex-Assistant Treasurer of NAWO',
         image: "/bridget2.jpg",
         link: "/who-we-are/our-team/bridget-chijioke",
         url_param: "bridget-chijioke",
@@ -76,7 +76,7 @@ export const team = [
     {
         id: 0,
         name: "Winnifred Obeya - Ekoja",
-        position: 'Honourable Member of Nawo',
+        position: 'Honourable Member of NAWO',
         image: "/winnifred2.jpg",
         link: "/who-we-are/our-team/winnifred-obeya-ekoja",
         url_param: "winnifred-obeya-ekoja",
@@ -85,7 +85,7 @@ export const team = [
     {
         id: 576,
         name: "Vivian Harris",
-        position: "Honourable Member of Nawo",
+        position: "Honourable Member of NAWO",
         image: "/vivian2.jpg",
         link: "/who-we-are/our-team/vivian-harris",
         url_param: "vivian-harris",
@@ -94,7 +94,7 @@ export const team = [
     {
         id: 7894,
         name: "Patricia D. Sawney",
-        position: "Honourable Member of Nawo",
+        position: "Honourable Member of NAWO",
         image: "/patricia.jpg",
         link: "/who-we-are/our-team/patricia-sawney",
         url_param: "patricia-sawney",

@@ -11,7 +11,7 @@ const DonationSection = () => {
                            <img src={african2} alt="" />
                </div>
                <div className="donation-description">
-                           <h3>Become a Volunteer</h3>
+                           <h3>Become a Donor</h3>
                            <h2>Open Hearts Make a Difference.</h2>
 
                            <p>Driven by compassion and generosity, we urge you to join us in extending kindness and supporting our mission. Even the smallest acts of giving have the power to ignite hope, transform lives, and foster meaningful change—creating stronger communities and brighter futures for everyone.</p>

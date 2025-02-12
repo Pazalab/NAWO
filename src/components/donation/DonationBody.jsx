@@ -1,7 +1,7 @@
 //import DonationForm from "./DonationForm"
 import donation from "../../assets/donation3.jpg"
 import zelle from "../../assets/zelle.webp"
-import { BiSolidDollarCircle } from "react-icons/bi";
+import { BsCurrencyDollar } from "react-icons/bs";
 
 const DonationBody = () => {
   return (
@@ -24,32 +24,28 @@ const DonationBody = () => {
 
                                                 <div className="donation-packets">
                                                           <div className="packet-moja">
-                                                                      <span><BiSolidDollarCircle /></span>
-                                                                       <p>25$ provides food for one child</p>
+                                                                      <span><BsCurrencyDollar /> 50</span>
+                                                                       <p>provides chairs for schools</p>
                                                           </div>
                                                           <div className="packet-moja">
-                                                                      <span><BiSolidDollarCircle /></span>
-                                                                       <p>50$ provides chairs for schools</p>
+                                                                      <span><BsCurrencyDollar />75</span>
+                                                                       <p> provides medical supplies</p>
                                                           </div>
                                                           <div className="packet-moja">
-                                                                      <span><BiSolidDollarCircle /></span>
-                                                                       <p>75$ provides medical supplies</p>
+                                                                      <span><BsCurrencyDollar />100</span>
+                                                                       <p>provides renovation to schools</p>
                                                           </div>
                                                           <div className="packet-moja">
-                                                                      <span><BiSolidDollarCircle /></span>
-                                                                       <p>100$ provides renovation to schools</p>
+                                                                      <span><BsCurrencyDollar />200</span>
+                                                                       <p>provides clean water</p>
                                                           </div>
                                                           <div className="packet-moja">
-                                                                      <span><BiSolidDollarCircle /></span>
-                                                                       <p>200$ provides clean water</p>
+                                                                      <span><BsCurrencyDollar />500</span>
+                                                                       <p>provides school fees</p>
                                                           </div>
                                                           <div className="packet-moja">
-                                                                      <span><BiSolidDollarCircle /></span>
-                                                                       <p>500$ provides school fees</p>
-                                                          </div>
-                                                          <div className="packet-moja">
-                                                                      <span><BiSolidDollarCircle /></span>
-                                                                       <p>1000$ provides scholarships</p>
+                                                                      <span><BsCurrencyDollar />1000</span>
+                                                                       <p>provides scholarships</p>
                                                           </div>
                                                 </div>
 
@@ -57,7 +53,7 @@ const DonationBody = () => {
                                                           <p>Use the following Zelle details to place your donation:</p>
                                                            <div className="payment-wrap">
                                                                      <h5><span>Phone Number:</span>(202)-378-7855</h5>
-                                                                     <h5><span>Name: </span>Glory Anyaegbu</h5>
+                                                                     <h5><span>Name: </span>Glory Anyaegbu, NAWO Treasurer</h5>
                                                            </div>
                                                 </div>
 
