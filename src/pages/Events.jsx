@@ -1,6 +1,6 @@
 import Navbar from "../components/common/navigation/Navbar"
 import { useCountdown } from "../utils/counterutil";
-import { PiHandHeartLight } from "react-icons/pi";
+//import { PiHandHeartLight } from "react-icons/pi";
 import { Link } from "react-router-dom"
 import event_upcoming from "../assets/event1.jpg"
 import { PiMapPinLineLight } from "react-icons/pi";
@@ -67,8 +67,8 @@ const Events = () => {
                                                                                                                  <p>Secs</p>
                                                                                                          </div>
                                                                                                  </div>
-
-                                                                                                 <Link to={"/donate"}>Donate with Zelle <span><PiHandHeartLight /></span></Link>
+{/* 
+                                                                                                 <Link to={"/donate"}>Donate with Zelle <span><PiHandHeartLight /></span></Link> */}
                                                                                        </div>
                                                                           }
                                                                          

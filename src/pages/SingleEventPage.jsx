@@ -4,7 +4,7 @@ import Footer from "../components/common/Footer"
 import { PiMapPinLineLight } from "react-icons/pi";
 import { IoCalendarOutline } from "react-icons/io5";
 import { useCountdown } from "../utils/counterutil";
-import event2 from "../assets/event3.jpg"
+import event2 from "../assets/event7.jpg"
 
 const TARGET_DAY = new Date("October 18, 2025").getTime();
 
@@ -26,7 +26,7 @@ const SingleEventPage = () => {
 
                                                                                <div className="single-hero-row">
                                                                                            <div className="single-hero-box">
-                                                                                                     <h4><span><IoCalendarOutline /></span> Saturday, October 2025</h4>
+                                                                                                     <h4><span><IoCalendarOutline /></span> Saturday, October 18th, 2025</h4>
                                                                                            </div>
                                                                                            <div className="single-hero-box">
                                                                                                       <h4><span><PiMapPinLineLight /></span>Ekkon Conference Center</h4>

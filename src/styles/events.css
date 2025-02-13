@@ -323,9 +323,9 @@
 
 .event-image-strip{
        height: 500px;
-       background: url("../assets/event4.jpg") no-repeat;
+       background: url("../assets/event9.jpg") no-repeat;
        background-size: cover;
-       background-position: center;
+       background-position: center 20%;
 }
 
 

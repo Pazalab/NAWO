@@ -69,7 +69,7 @@ export const projects = [
     coverphoto: "/projects/alice/coverphoto.jpg",
     date: "25th November, 2023",
     project_year: "2023",
-    location: "Younde, Cameroon",
+    location: "Yaoundé, Cameroon",
     country: "Cameroon",
     photos: [
          "/projects/alice/alice1.jpg",

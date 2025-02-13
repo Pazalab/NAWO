@@ -24,7 +24,7 @@ const StoriesSection = () => {
                                                             </div>
                                                             <h3>{item.title}</h3>
                                                              <p>{item.body[0].slice(0, 100)}...</p>
-                                                            <Link to={"/"}>Read More <span><GoArrowRight /></span></Link>
+                                                            <Link to={item.link}>Read More <span><GoArrowRight /></span></Link>
                                                   </div>
                                                )}
                                        </div>

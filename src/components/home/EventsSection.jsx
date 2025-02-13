@@ -72,7 +72,7 @@ const EventsSection = () => {
                                                                                                          </div>
                                                                                                  </div>
 
-                                                                                                 <Link to={"/donate"}>Donate with Zelle <span><PiHandHeartLight /></span></Link>
+                                                                                                 {/* <Link to={"/donate"}>Donate with Zelle <span><PiHandHeartLight /></span></Link> */}
                                                                                        </div>
                                                                           }
                                                                          
