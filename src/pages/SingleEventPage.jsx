@@ -4,7 +4,7 @@ import Footer from "../components/common/Footer"
 import { PiMapPinLineLight } from "react-icons/pi";
 import { IoCalendarOutline } from "react-icons/io5";
 import { useCountdown } from "../utils/counterutil";
-import event2 from "../assets/event7.jpg"
+import event2 from "../assets/event10.jpg"
 
 const TARGET_DAY = new Date("October 18, 2025").getTime();
 

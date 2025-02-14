@@ -24,11 +24,9 @@
 .hero-slide-moja.one .image-plus-overlay{
      width: 100%;
      height: 100%;
-     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../assets/hero1.jpg") no-repeat;
-     background-position: center;
+     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../assets/hero4.jpg") no-repeat;
+     background-position: top;
      background-size: cover;
-     animation: expand 13s forwards;
-     -webkit-animation: expand 13s forwards;
      position: absolute;
      z-index: 5;
 }
@@ -36,11 +34,9 @@
 .hero-slide-moja.two .image-plus-overlay{
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../assets/hero2.jpg") no-repeat;
-    background-position: center;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../assets/hero5.jpg") no-repeat;
+    background-position: top;
     background-size: cover;
-    animation: expand 13s forwards;
-    -webkit-animation: expand 13s forwards;
     position: absolute;
     z-index: 5;
 }
@@ -48,11 +44,11 @@
 .hero-slide-moja.three .image-plus-overlay{
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../assets/hero3.jpg") no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../assets/hero6.jpg") no-repeat;
     background-position: center;
     background-size: cover;
-    animation: expand 13s forwards;
-    -webkit-animation: expand 13s forwards;
+    /* animation: expand 13s forwards;
+    -webkit-animation: expand 13s forwards; */
     position: absolute;
     z-index: 5;
 }
@@ -636,7 +632,7 @@
       cursor: pointer;
 }
 .event-moja .event-image{
-       max-width: 250px;
+       width: 250px;
        height: 200px;
        flex-shrink: 0;
        border-radius: 16px;

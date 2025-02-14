@@ -168,7 +168,7 @@
 .event-page-landing{
       height: 110vh;
       position: relative;
-      background: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url("../assets/eventBG.jpg") no-repeat;
+      background: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url("../assets/event11.jpg") no-repeat;
       background-size: cover;
       background-position: 50% 20%;
   }

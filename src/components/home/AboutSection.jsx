@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { HiArrowLongRight } from "react-icons/hi2";
-import economic from "../../assets/economic.jpg"
+import economic from "../../assets/economic2.jpg"
 import health from "../../assets/health.jpg"
 import icon1 from "../../assets/stethoscope.png"
 import icon2 from "../../assets/magistrate.png"
