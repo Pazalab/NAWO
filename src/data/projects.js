@@ -104,7 +104,7 @@ export const projects = [
  },
  {
     id: 894,
-    title: "Scholarship and Food Donation",
+    title: "Scholarship and Food Donation(OSTV)",
     link: "/our-work/scholarship-and-food-donation",
     url_param: "scholarship-and-food-donation",
     owner: "Susan Wachira",
@@ -128,7 +128,7 @@ export const projects = [
  },
  {
     id: 87904,
-    title: "Operation Giving Back to my beloved community",
+    title: "Operation Giving Back to my beloved community(OSTV)",
     link: "/our-work/operation-giving-back-to-my-beloved-community",
     url_param: "operation-giving-back-to-my-beloved-community",
     owner: "Patricia D. Sawney",
@@ -162,7 +162,7 @@ export const projects = [
  },
  {
     id: 7748,
-    title: "Food Donation and Supporting Methodist  Church Cathedral(Widows)",
+    title: "Food Donation and Supporting Methodist  Church Cathedral(Widows)(OSTV)",
     location: "Okitipupa, Ondo State, Nigeria",
     date: "",
     project_year: "2021",
@@ -184,7 +184,7 @@ export const projects = [
  },
  {
     id: 8794,
-    title: "Scholarships at Methodist High School",
+    title: "Scholarships at Methodist High School (OSTV)",
     location: "Okitipupa, Ondo State, Nigeria",
     date: "",
     project_year: "2023",
@@ -200,5 +200,52 @@ export const projects = [
         "/projects/ayoola/ayoola4.jpg",
     ],
     videos: []
+ },
+ {
+    id: 7749,
+    title: "NAWO Food Donation (OSTV)",
+    location: "Akpakwume / Nze Village, Nigeria",
+    date: "",
+    project_year: "2021",
+    owner: "Glory Anyaegbu",
+    name: "Glory Anyaegbu",
+    coverphoto: "/projects/glory/glory14.jpg",
+    link: "/our-work/nawo-food-donation",
+    country: "Nigeria",
+    url_param: "nawo-food-donation",
+    photos: [
+        "/projects/glory/glory11.jpg",
+        "/projects/glory/glory12.jpg",
+        "/projects/glory/glory13.jpg",
+        "/projects/glory/glory15.jpg"
+    ],
+    videos: [
+        
+    ]
+ },
+ {
+     id: 9084,
+     title: "NAWO Food Donation (OSTV)",
+     location: "Akpakwume / Nze Village, Nigeria",
+     date: "",
+     project_year: "2023",
+     owner: "Glory Anyaegbu",
+     name: "Glory Anyaegbu",
+     coverphoto: "/projects/glory/glory10.jpg",
+     link: "/our-work/nawo-food-donation",
+     country: "Nigeria",
+     url_param: "nawo-food-donation",
+     photos: [
+          "/projects/glory/glory1.jpg",
+          "/projects/glory/glory2.jpg",
+          "/projects/glory/glory4.jpg",
+          "/projects/glory/glory3.jpg",
+          "/projects/glory/glory5.jpg",
+          "/projects/glory/glory6.jpg",
+          "/projects/glory/glory7.jpg",
+          "/projects/glory/glory8.jpg",
+          "/projects/glory/glory9.jpg"
+     ],
+     videos: []
  }
 ]

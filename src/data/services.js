@@ -2,7 +2,7 @@ export const solutions = [
     {
          id: 0,
          title: "Fundraising & Donations",
-         image: "/donation.jpg",
+         image: "/images/donation.jpg",
          link: "/what-we-do/fundraising-and-donations",
          url_param: "fundraising-and-donations",
          description: "At the heart of our mission lies the Donations and Fundraising program, a lifeline for countless underserved African villages. This program is dedicated to securing the resources necessary to uplift communities, ensuring that every contribution from our supporters directly touches lives. With a deep sense of accountability, we carefully allocate donor funds across our four focus areas: education, health, women’s empowerment, and economic development. Each dollar becomes a building block in creating opportunities and fostering resilience in the communities we serve.",
@@ -11,7 +11,7 @@ export const solutions = [
     {
         id: 1,
         title: "Medical Treatment Help & Supplies",
-        image: "/medicine.jpg",
+        image: "/images/medicine.jpg",
         link: "/what-we-do/medical-treatment-help-and-supplies",
         url_param: "medical-treatment-help-and-supplies",
         description: "Access to healthcare is a basic human right, yet many underserved African villages face significant barriers due to inadequate medical resources and facilities. Our program is dedicated to bridging this gap by providing free medical supplies and services to communities in need. From essential medications and vaccines to diagnostic tools, we work tirelessly to ensure that no one is left behind in the journey toward better health.",
@@ -20,7 +20,7 @@ export const solutions = [
     {
         id: 2,
         title: "Education Development & Programs",
-        image: "/education.jpg",
+        image: "/images/education.jpg",
         link: "/what-we-do/education-development-programs",
         url_param: "education-development-programs",
         description: "Education is the cornerstone of progress, yet millions of children in African villages face barriers that prevent them from accessing quality learning. Our initiative focuses on bridging this critical gap, working tirelessly to grow literacy levels and empower communities from the ground up. By addressing the systemic challenges in education, we aim to create lasting change and open doors of opportunity for children and youth in underserved villages.",
@@ -29,7 +29,7 @@ export const solutions = [
     {
         id: 3,
         title: "Water Supply",
-        image: "/water.jpg",
+        image: "/images/water.jpg",
         link: "/what-we-do/water-supply",
         url_param: "water-supply",
         description: "Access to clean water remains one of Africa's greatest challenges, especially in rural villages where drought and water scarcity make daily life an uphill battle. Our program was born out of the urgent need to address this gap, easing the burden on villagers who often walk long kilometers to fetch water. At NAWO, we believe clean water is a basic human right, and we are committed to making it accessible to every household, ensuring healthier, more resilient communities.",
@@ -38,7 +38,7 @@ export const solutions = [
     {
         id: 4,
         title: "Community Development Programs",
-        image: "/community.jpg",
+        image: "/images/community.jpg",
         link: "/what-we-do/community-development-programs",
         url_param: "community-development-programs",
         description: "In many underserved African villages, the high cost of living and lack of essential resources have left communities struggling to meet their daily needs. Our program are designed to bridge this gap, uplifting villages by providing the general supplies and support needed to build a foundation for sustainable growth. From food donations to infrastructure development, we are committed to fostering resilient, self-sufficient communities.",
@@ -47,7 +47,7 @@ export const solutions = [
     {
         id: 5,
         title: "Relief Projects",
-        image: "relief.jpg",
+        image: "/images/relief.jpg",
         link: "/what-we-do/relief-projects",
         url_param: "relief-projects",
         description: "In times of hardship, underserved African villages often face the brunt of economic challenges, natural disasters, and resource shortages. Our programs are designed to provide urgent support to these communities, ensuring that no one is left behind in times of need. By delivering essential supplies and services, we aim to ease the burden on families and offer a lifeline of hope when it’s needed most.",
