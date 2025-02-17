@@ -14,6 +14,7 @@ const Header = () => {
       { title: "Story", link: "/who-we-are"},
       { title: "Team", link: "/who-we-are/our-team"},
       { title: "NAWO Events", link: "/nawo-events"},
+      { title: "NAWO Moments", link: "/nawo-moments"},
       { title: "Awards", link: "/awards"},
   ]
   const [status, setStatus] = useState(false)
@@ -21,9 +22,11 @@ const Header = () => {
   const url = pathname.slice(1, 10)
   const url2 = pathname.slice(11, 20);
   const url3 = pathname.slice(1, 12);
-  console.log(url3)
+  const url4 = pathname.slice(1,7);
+  const url5 = pathname.slice(1, 14);
+  
   return (
-         <header className={url === "our-work/" || url2 === "/our-team" || url3 === "nawo-events" ? "remove" : ""}>
+         <header className={url === "our-work/" || url2 === "/our-team" || url3 === "nawo-events" || url4 === "impact" || url5 === "nawo-moments" ? "remove" : "" }>
                        <div className="header-content">
                                  <Link to={"/"} className="logo">
                                           <img src={logo} alt="Nawo Logo" />

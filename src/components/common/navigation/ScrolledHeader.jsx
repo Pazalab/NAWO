@@ -14,6 +14,7 @@ const ScrolledHeader = () => {
           { title: "Story", link: "/who-we-are"},
           { title: "Team", link: "/who-we-are/our-team"},
           { title: "NAWO Events", link: "/nawo-events"},
+          { title: "NAWO Moments", link: "/nawo-moments"},
           { title: "Awards", link: "/awards"},
       ]
       const [status, setStatus] = useState(false)
@@ -23,21 +24,25 @@ const ScrolledHeader = () => {
       const url = pathname.slice(1, 10);
       const url2 = pathname.slice(11, 20);
       const url3 = pathname.slice(1,12)
+      const url4 = pathname.slice(1,7);
+      const url5 = pathname.slice(1, 14);
+
       useEffect(() => {
              window.addEventListener("scroll", ()=> {
                     if(window.scrollY > 150){
                           setScrolled(true)
                     }else{
                         setScrolled(false) 
-                        if(url === "our-work/" || url2 == "/our-team" || url3 == "nawo-events"){
+                        if(url === "our-work/" || url2 == "/our-team" || url3 == "nawo-events" || url4 == "impact" || url5 == "nawo-moments"){
                             setScrolled(true)
                        }
                     }
              })
-             if(url === "our-work/" || url2 === "/our-team" || url3 === "nawo-events"){
+             if(url === "our-work/" || url2 === "/our-team" || url3 === "nawo-events" || url4 == "impact" || url5 == "nawo-moments"){
                   setScrolled(true)
              }
-      }, [url, url2, url3])
+      }, [url, url2, url3, url4, url5])
+      
   return (
        <div className={ scrolled ? "scrolled-header active" : "scrolled-header"}>
                     <div className="header-content">

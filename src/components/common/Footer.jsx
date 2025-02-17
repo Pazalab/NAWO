@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom"
-import { FaFacebook, FaXTwitter, FaLinkedinIn, FaYoutube } from "react-icons/fa6";
+import { FaFacebook, FaYoutube } from "react-icons/fa6";
 import logo from "../../assets/logo.png"
 import { HiArrowUpRight } from "react-icons/hi2";
 const Footer = () => {

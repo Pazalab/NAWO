@@ -21,7 +21,7 @@ export const team = [
         id: 3,
         name: "Glory Anyaegbu",
         position: "Vice President & Treasurer of NAWO",
-        image: "glory.jpg",
+        image: "/team/glory.jpg",
         link: "/who-we-are/our-team/glory-anyaegbu",
         url_param: "glory-anyaegbu",
         description: "Glory is someone who believes deeply in the power of hope and human resilience. She understands the journey towards progress is not an easy one, but she's committed to walking beside those who need support along the way. She firmly believes that no challenge is too great when communities and individuals are determined to make a difference, and she dedicates herself to helping them find pathways that lead to lasting change and opportunity. Every step forward, no matter how small, is worth celebrating because it represents the strength of the human spirit."
@@ -30,7 +30,7 @@ export const team = [
         id: 1,
         name: "Vero Mgbodille",
         position: 'Honorable Madam Ex-Vice President of NAWO',
-        image: "/vero-photo.jpg",
+        image: "/team/vero.jpg",
         link:"/who-we-are/our-team/vero-mgbodille",
         url_param: "vero-mgbodille",
         description: "Vera is a lifelong learner, always seeking to expand her knowledge and find new ways to address the challenges faced by communities in need. She believes that innovation is key to overcoming obstacles, and that by constantly adapting and seeking creative solutions, we can make a true difference. She views challenges as opportunities to lear, grow, and find new paths forward. The work she does is driven by a desire to explore new ideas, push boundaries, and ultimately create positive, long-term impact."
@@ -39,7 +39,7 @@ export const team = [
         id: 5,
         name: "Amaka Nnamchi Ezekwueche",
         position: "Honorable President of NAWO",
-        image: "/amaka-photo.jpg",
+        image: "/team/amaka.jpg",
         link: "/who-we-are/our-team/amaka-nnamchi-ezekwueche",
         url_param: "amaka-nnamchi-ezekwueche",
         description: "Amaka is a passionate advocate for sustainable development, dedicating her energy and resources to helping underserved communities realize their full potential. She believes that real change comes from empowering people with the tools and opportunities they need to thrive on their own. Her deep conviction is that no community should be overlooked or left behind, and that every individual, regardless of where they are from, has the right to access opportunities that allow them to live a fulfilling life. She's driven by a relentless desire to see all communities flourish, not just survive."
@@ -49,7 +49,7 @@ export const team = [
         id: 7,
         name: "Susan Wachira",
         position: "Honorable Financial Secretary of NAWO",
-        image: "/susan2.jpg",
+        image: "/team/susan.jpg",
         link: "/who-we-are/our-team/susan-wachira",
         url_param: "susan-wachira",
         description: "Susan is an unwavering believer in the right of every person to live with dignity and respect. Her commitment to this belief drives everything she does, and she is deeply motivated by the idea that true transformation is possible when communities are empowered to take control of their own futures. She sees her work as an extension of her belief in human dignity, and is driven by the idea that everyone, regardless of background or circumstances, deserves the chance to lead a life of fulfillment, equality, and opportunity."
@@ -58,7 +58,7 @@ export const team = [
         id: 1,
         name: "Dr. Ayoola Ogbe-Oyenuga",
         position: 'Honorable General Secretary of NAWO',
-        image: "/ayola.jpg",
+        image: "/team/ayoola.jpg",
         link:"/who-we-are/our-team/ayoola-oyenuga",
         url_param: "ayoola-oyenuga",
         description: "Ayoola is a listener, deeply committed to understanding the unique needs, values and aspirations of the communities she serves. She believes that listening is the first step in creating meaningful, lasting change. Only by truly understanding the experiences and perspectives of the people we work with can we begin to craft solutions that are relevant, respectful, and truly empowering. Her work is rooted in the belief that every voice matters, and that the answers to even the most difficult challenges lie within the communities themselves."
@@ -77,7 +77,7 @@ export const team = [
         id: 0,
         name: "Winnifred Obeya - Ekoja",
         position: 'Honourable Member of NAWO',
-        image: "/winnifred2.jpg",
+        image: "/team/winnifred.jpg",
         link: "/who-we-are/our-team/winnifred-obeya-ekoja",
         url_param: "winnifred-obeya-ekoja",
         description: "Winnifred is a storyteller, compelled to share the voices and experiences of the people she works with because she believes that stories have the power to inspire action and create lasting change. She understands that stories of resilience, determination and hope from communities in need can light the way for others to take action. By sharing these stories, she aims to build understanding, compassion, and a sense of shared responsibility in the world. Every story, no matter how simple or complex, holds the power to inspire someone, somewhere, to take a stand and contribute to positive change."

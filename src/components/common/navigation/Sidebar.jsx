@@ -6,7 +6,7 @@ import { sidebarContext } from "./navcontext"
 // import { MdPhone } from "react-icons/md";
 // import { PiEnvelopeLight } from "react-icons/pi";
 // import { SiGooglemaps } from "react-icons/si";
-import { FaFacebook, FaXTwitter, FaLinkedinIn, FaYoutube } from "react-icons/fa6";
+import { FaFacebook, FaYoutube } from "react-icons/fa6";
 import Dropdown from "./Dropdown"
 import { IoIosArrowDown } from "react-icons/io";
 const Sidebar = () => {
@@ -17,6 +17,7 @@ const Sidebar = () => {
           { title: "Story", link: "/about-us"},
           { title: "Team", link: "/team"},
           { title: "NAWO Events", link: "/nawo-events"},
+          { title: "NAWO Moments", link: "/nawo-moments"},
           { title: "Awards", link: "/awards"},
       ]
       const [status, setStatus] = useState(false)

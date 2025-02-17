@@ -14,6 +14,8 @@ import SingleTeamPage from "./pages/SingleTeamPage"
 import Events from "./pages/Events"
 import Awards from "./pages/Awards"
 import SingleEventPage from "./pages/SingleEventPage"
+import SingleStoryPage from "./pages/SingleStoryPage"
+import NawoMoments from "./pages/NawoMoments"
 
 function App() {
   const location = useLocation();
@@ -36,6 +38,8 @@ function App() {
               <Route path="/who-we-are/our-team" element={<Team />} />
               <Route path="/who-we-are/our-team/:name" element={<SingleTeamPage />} />
               <Route path="/awards" element={<Awards />} />
+              <Route path="/impact-story/:title" element={<SingleStoryPage />} />
+              <Route path="/nawo-moments" element={<NawoMoments />} />
     </Routes>
   )
 }
