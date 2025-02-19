@@ -66,7 +66,7 @@ export const team = [
     {
         id: 4,
         name: "Bridget Chijioke",
-        position:'Honourable Ex-Assistant Treasurer of NAWO',
+        position:'Honourable Assistant Treasurer of NAWO',
         image: "/bridget2.jpg",
         link: "/who-we-are/our-team/bridget-chijioke",
         url_param: "bridget-chijioke",

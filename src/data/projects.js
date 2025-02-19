@@ -224,7 +224,7 @@ export const projects = [
     ]
  },
  {
-     id: 9084,
+     id: 90804,
      title: "NAWO Food Donation (OSTV)",
      location: "Akpakwume / Nze Village, Nigeria",
      date: "",
@@ -232,9 +232,9 @@ export const projects = [
      owner: "Glory Anyaegbu",
      name: "Glory Anyaegbu",
      coverphoto: "/projects/glory/glory10.jpg",
-     link: "/our-work/nawo-food-donation",
+     link: "/our-work/nawo-food-donation-2",
      country: "Nigeria",
-     url_param: "nawo-food-donation",
+     url_param: "nawo-food-donation-2",
      photos: [
           "/projects/glory/glory1.jpg",
           "/projects/glory/glory2.jpg",

@@ -50,7 +50,7 @@ const DonationBody = () => {
                                                 </div>
 
                                                 <div className="payment-details">
-                                                          <p>Use the following Zelle details to place your donation:</p>
+                                                          <p>Use the following Zelle phone number and name details to place your donation:</p>
                                                            <div className="payment-wrap">
                                                                      <h5><span>Phone Number:</span>(202)-378-7855</h5>
                                                                      <h5><span>Name: </span>Glory Anyaegbu, NAWO Treasurer</h5>

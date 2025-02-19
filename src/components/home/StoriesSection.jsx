@@ -1,9 +1,10 @@
 import { GoArrowRight } from "react-icons/go"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import { BsDot } from "react-icons/bs";
 import { stories } from "../../data/stories";
 
 const StoriesSection = () => {
+  const navigate  = useNavigate();
   return (
     <div className="stories-section">
                 <div className="inner-row">
@@ -16,7 +17,7 @@ const StoriesSection = () => {
                                        <div className="stories-row">
 
                                                { stories.map(item =>
-                                                  <div className="story-moja" key={item.id}>
+                                                  <div className="story-moja" key={item.id} onClick={() => navigate(item.link)}>
                                                             <div className="story-head">
                                                                     <h4>{item.category}</h4>
                                                                     <span><BsDot /></span>

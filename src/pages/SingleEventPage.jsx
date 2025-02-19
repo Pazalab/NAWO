@@ -5,6 +5,7 @@ import { PiMapPinLineLight } from "react-icons/pi";
 import { IoCalendarOutline } from "react-icons/io5";
 import { useCountdown } from "../utils/counterutil";
 import event2 from "../assets/event10.jpg"
+import sponsor1 from "../assets/transmitio-green.jpg"
 
 const TARGET_DAY = new Date("October 18, 2025").getTime();
 
@@ -108,9 +109,7 @@ const SingleEventPage = () => {
                                             <h4>Meet our generous sponsors</h4>
 
                                             <div className="sponsors-logos">
-                                                        <img src="" alt="" />
-                                                        <img src="" alt="" />
-                                                        <img src="" alt="" />
+                                                        <img src={sponsor1} alt="" />
                                             </div>
                                  </div>
                      </div>

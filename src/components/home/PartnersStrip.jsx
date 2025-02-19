@@ -12,9 +12,8 @@ const PartnersStrip = () => {
                                      <h3>Our Esteemed Partners</h3>
                                      <div className="partner-logos">
                                                <img src={logo1} alt="" />
-                                               <img src={""} alt="" />
-                                               <img src={""} alt="" />
-                                              
+                                               {/* <img src={""} alt="" />
+                                               <img src={""} alt="" /> */}                    
                                      </div>
                           </div>
                </div>
